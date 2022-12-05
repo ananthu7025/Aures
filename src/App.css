@@ -1,0 +1,446 @@
+.App {
+  text-align: center;
+}
+.body {
+  background-color: black;
+}
+.body .carousel-container {
+  display: none;
+}
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+.header-logo {
+  height: 67vmin;
+}
+.casestudy-image {
+  height: 35vmin;
+}
+.body .see-more {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.body .see-more-icon {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 13px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.body .tab-section {
+  padding-top: 70px;
+  /* background-color: red; */
+  /* background-image: url("images/tab.png"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(8, 8, 8, 0.7)), url("images/tab.png");
+}
+
+.body .tab-section .individual-tab {
+  text-align: center;
+}
+
+.body .tab-section .strategy-individual-tab {
+  text-align: center;
+  position: relative;
+  padding-bottom: 8%;
+}
+
+
+/* .body .tab-section .branding-individual-tab {
+  text-align: center;
+  position: relative;
+  padding-bottom: 8%;
+} */
+/* @media screen and (max-width: 600px) {
+  .body .tab-section .strategy-individual-tab {
+    padding-bottom: 50px;
+  }
+} */
+
+
+.body .tab-section .branding-individual-tab {
+  text-align: center;
+}
+.body .tab-section .content-individual-tab {
+  text-align: center;
+}
+.body .tab-section .web-individual-tab {
+  text-align: center;
+}
+
+
+.body .tab-section .tab-title-1 {
+  font-style: italic;
+  font-size: 30px;
+  color: white;
+}
+.body .tab-section .tab-title-2 {
+  font-style: italic;
+  font-size: 19px;
+  padding-top: 30px;
+  color: white;
+  /* padding-left: 400px;
+  padding-right: 400px; */
+  padding-bottom: 150px;
+}
+
+
+/* .body .tab-section .branding-tab-title-2 {
+  font-style: italic;
+  font-size: 19px;
+  padding-top: 30px;
+  padding-right: 30%;
+  color: white;
+  padding-bottom: 150px;
+}
+.body .tab-section .branding-tab-title-1 {
+  font-style: italic;
+  font-size: 30px;
+  padding-right: 30%;
+  color: white;
+} */
+
+.body .tab-section .strategy-individual-tab .stratergy {
+  color: white;
+  font-size: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-style: italic;
+  font-weight: 1000;
+  letter-spacing: 12px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .body .tab-section .strategy-individual-tab .stratergy {
+    font-size: 40px;
+  }
+}
+.body .tab-section .individual-tab .branding {
+  color: white;
+  font-size: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-style: italic;
+  font-weight: 1000;
+  letter-spacing: 12px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(247, 201, 0);
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .body .tab-section .individual-tab .branding {
+    font-size: 40px;
+  }
+}
+
+.body .tab-section .content-individual-tab .content {
+  color: white;
+  font-size: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-style: italic;
+  font-weight: 1000;
+  letter-spacing: 12px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 168, 132);
+  -webkit-text-fill-color: transparent;
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  .body .tab-section .content-individual-tab .content {
+    font-size: 40px;
+  }
+}
+
+
+.body .tab-section .web-individual-tab .web {
+  color: white;
+  font-size: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-style: italic;
+  font-weight: 1000;
+  letter-spacing: 12px;
+  -webkit-text-stroke-width: 2px;
+  /* -webkit-text-stroke-width: 10px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: black; */
+}
+@media screen and (max-width: 600px) {
+  .body .tab-section .web-individual-tab .web {
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+.body .capabilities-text {
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.body .capabilities-sub-text {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.body .capability-section {
+  padding-top: 90px;
+}
+.body .capability-image {
+  height: 12vmin;
+}
+
+.body .strategy-image {
+  height: 100%;
+  position: absolute;
+  top: 6%;
+  left: 48%;
+}
+.body .branding-image {
+  /* height: 70%; */
+  float: right;
+
+}
+.body .content-image {
+  /* float: left; */
+}
+.body .web-content-image {
+  float: right;
+  height: 20%;
+  width: 10%;
+
+
+}
+.body .web-content-image-2 {
+  float: left;
+  height: 70%;
+  width: 70%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .body .branding-imag {
+    padding-left: 0%;
+  }
+}
+/* @media screen and (max-width: 600px) {
+  .body .branding-imag {
+    padding-left: 5%;
+  }
+} */
+
+.body .capability-card {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 150px;
+  background-image: url("images/bg.jpg");
+}
+.body .contact-card {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.body .contact-section {
+  margin-top: 50px;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.body .contact-section .contact-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.body .contact-section .contact-subtitle {
+  font-size: 16px;
+  line-height: 2.8;
+  padding-top: 40px;
+  width: 70%;
+
+}
+
+.body .contact-section .contact-title-2 {
+  font-size: 26px;
+  font-weight: 900;
+  padding-top: 40px;
+}
+.body .contact-section .email-text-field {
+  width: 70%;  
+  padding-top: 30px;
+}
+
+
+.body .footer-card {
+  font-size: 17px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  text-align: center;
+}
+
+.body .socialmedia-footer {
+  padding-left: 10.5%;
+  padding-right: 10.5%;
+  background-color: black;
+  color: white;
+  padding-bottom: 80px;
+}
+.body .socialmedia-footer .footer-text1 {
+  font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.body .socialmedia-footer .footer-text1 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+
+
+
+.body .contact-image {
+  height: 42vmin;
+}
+
+.body .see-more-section {
+  padding-bottom: 20px;
+}
+
+.casestudy-card .casestudy-section {
+  margin-top: 50px;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+.header-section {
+  padding-top: 80px;
+  
+}
+.body .casestudy-card {
+  font-size: 45px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.body .casestudy-subtitle {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+
+
+/* .body .box {
+  text-align: center !important;
+} */
+.socialmedia-card {
+  /* margin-left: 1100px; */
+  /* margin-top: 50px;
+  padding-bottom: 200px; */
+  /* margin-bottom: 50px; */
+  /* float: right; */
+  text-align: right;
+  float: right;
+  width: 500px;
+  background-color: rgb(36, 36, 36);
+  padding: 30px;
+  color: white;
+  font-size: 18px;
+  /* vertical-align: middle; */
+}
+.body .carousal {
+  padding-top: 200px !important;
+}
+.header-text-box {
+  
+  padding-top: 7% !important;
+  padding-left: 9% !important;
+  padding-right: 9% !important;
+  padding-bottom: 7% !important;
+}
+.headline {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+}
+.header-box {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.header-box .box-content {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  line-height: 29px;
+
+  padding: 40px;
+}
+.header-box .box-content .box-content-head {
+  font-size: 25px !important;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #000000;
+  padding-bottom: 70px;
+  padding-left: 200px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
