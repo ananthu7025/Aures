@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Humpton</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="hero" class="has-image">
+    
+        <div id="hero-styles" class="container">
+          
+            <div id="hero-caption" class="content-max-width text-align-left block-title">
+                <div class="inner row">
+                    
+                    <div class="col-md-12">
+                        <div class="hero-arrow ">
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="hero-subtitle"><span>Digital</span><br><span>Creative Agency</span></div>
+                        <div class="hero-title-wrapper">
+                            <div class="hero-title">
+                                <span>Inspire<br>Through<br>Design</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-9 offset-md-8">
+                        <div id="hero-description" class="content-max-width">
+                            <div class="inner">
+                                <div class="hero-text no-max-width">
+                                    <div class="one_half">
+                                        <!-- Add content for the left column if needed -->
+                                    </div>
+                                    <div class="one_half last">
+                                        <div class="hero-text">
+                                            <span>Humpton develops, designs and <br/>delivers websites and  <br/>creative campaigns that drive<br/> results, build awareness and<br/> win awards. <br><br> Our work never brags, but it sure loves to speak for itself.</span>
+                                        </div>
+                                        <br>
+                                        
+                                        <div class="button-wrap right button-link large-btn has-animation animated d-flex">
+                                            <a class="read-more-link" href="about.html" data-type="page-transition">
+                                                <div class="button-text sticky right">
+                                                    <span data-hover="Read More">Read More</span>
+                                                </div>
+                                            </a>
+                                            <div class="icon-wrap parallax-wrap">
+                                                <div class="button-icon parallax-element">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+ 
+    </section>
+    <section  class="projects-section "> 
+
+                <h4 class="p-h">Projects</h3>
+            <p class="p-p">The driving force of all speeches, we believe that creation <br/>should be the point around which any communication<br/> strategy revolves.</p>
+    </section>
+    <div class="marquee-container">
+        <div class="marquee-lines"></div>
+        <div class="marquee">
+          <div class="marquee-text">
+            <span>Make brands attractive and connect them to their audiences.</span>
+          </div>
+          <div class="marquee-text">
+            <span>Make brands attractive and connect them to their audiences.</span>
+          </div>
+          <div class="marquee-text">
+            <span>Make brands attractive and connect them to their audiences.</span>
+          </div>
+        </div>
+        <div class="marquee-lines"></div>
+
+      </div>
+      <section  class="projects-section "> 
+
+        <h4 class="p-h">Projects</h3>
+    <p class="p-p">The driving force of all speeches, we believe that creation <br/>should be the point around which any communication<br/> strategy revolves.</p>
+</section> 
+
+</body>
+<script>
+           const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+</script>
+</html>
