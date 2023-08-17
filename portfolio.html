@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll-Triggered Animations</title>
+<link rel="stylesheet" href="portfolio.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+  <div class="container">    
+    <section class="panel red">
+      <div class="bg"></div>
+      <h1>
+        SLIDE 2
+      </h1>
+    </section>
+    
+    <section class="panel gray">
+      <div>
+    SLIDE 3
+        <div class="animated-list">
+          
+          <div class="list-left">
+            <ul>
+              <li class="active"><h1>Text 1</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+              <li><h1>Text 2</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+              <li><h1>Text 3</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+              <li><h1>Text 4</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+              <li><h1>Text 5</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+              <li><h1>Text 6</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+            </ul>
+          </div>
+          <div class="list-right">
+            <div class="list-img"></div>
+          </div>
+        </div>
+        
+        
+  </div>
+    </section>
+    <section class="panel purple">
+      <div>
+        SLIDE 4
+      </div>
+    </section>
+    <section class="panel green">
+      <div>
+        SLIDE 5
+      </div>
+    </section>
+  </div>
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script>
+gsap.registerPlugin(ScrollTrigger);
+
+let sections = gsap.utils.toArray(".panel");
+
+let scrollTween = gsap.to(sections, {
+    xPercent: -100 * (sections.length - 1),
+    ease: "none", // <-- IMPORTANT!
+    scrollTrigger: {
+      trigger: ".container",
+      pin: true,
+      scrub: 0.1,
+      //snap: directionalSnap(1 / (sections.length - 1)),
+      end: "+=3000"
+    }
+  });
+
+// red section
+gsap.to(".red h1", {
+  duration: 20,
+  opacity:1,
+  ease: "elastic",
+  scrollTrigger: {
+    trigger: ".red",
+    containerAnimation: scrollTween,
+    start: "-20% center",
+    toggleActions: "play none none reset",
+    scrub: true,
+    id: "1"
+  }
+});
+
+gsap.to(".red .bg", {
+  opacity:1,
+  duration: 2,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".red",
+    containerAnimation: scrollTween,
+    start: "left center",
+
+    scrub: true,
+    id: "2"
+  }
+}); 
+  </script>
+</body>
+</html>

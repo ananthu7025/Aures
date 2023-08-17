@@ -732,3 +732,33 @@ right: -16px;
   color: white;
   opacity: 0;
 }
+
+.grid {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.block-33 {
+  width: 33%;
+  float: left;
+  margin-top: 40px;
+}
+
+.gutter {
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.clear {
+   clear: both;
+   display: block;
+}
+
+.parallax-img {
+  width: 100%;
+}
+
+
