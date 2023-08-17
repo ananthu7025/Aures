@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <!-- Include GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <!-- Include ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
 </head>
+
 <body>
     <div class="cursor"></div>
     <header>
@@ -31,15 +39,14 @@
         </div>
     </header>
     <section id="hero" class="has-image">
-    
         <div id="hero-styles" class="container">
-          
             <div id="hero-caption" class="content-max-width text-align-left block-title">
                 <div class="inner row">
-                    
+
                     <div class="col-md-12">
                         <div class="hero-arrow ">
-                            <i class="fas fa-angle-down"></i>
+                            <i style="transform: rotate(45deg); font-size: xx-large;" class="fas fa-arrow-right"></i>
+
                         </div>
                         <div class="hero-subtitle"><span>Digital</span><br><span>Creative Agency</span></div>
                         <div class="hero-title-wrapper">
@@ -47,11 +54,8 @@
                                 <span>Inspire<br>Through<br>Design</span>
                             </div>
                         </div>
-                        
                     </div>
-                    
                 </div>
-
                 <div class="row">
 
                     <div class="col-md-9 offset-md-8">
@@ -63,11 +67,15 @@
                                     </div>
                                     <div class="one_half last">
                                         <div class="hero-text">
-                                            <span>Humpton develops, designs and <br/>delivers websites and  <br/>creative campaigns that drive<br/> results, build awareness and<br/> win awards. <br><br> Our work never brags, but it sure loves to speak for itself.</span>
+                                            <span>Humpton develops, designs and <br />delivers websites and
+                                                <br />creative campaigns that drive<br /> results, build awareness
+                                                and<br /> win awards. <br><br> Our work never brags, but it sure loves
+                                                to speak for itself.</span>
                                         </div>
                                         <br>
-                                        
-                                        <div class="button-wrap right button-link large-btn has-animation animated d-flex">
+
+                                        <div
+                                            class="button-wrap right button-link large-btn has-animation animated d-flex">
                                             <a class="read-more-link" href="about.html" data-type="page-transition">
                                                 <div class="button-text sticky right">
                                                     <span data-hover="Read More">Read More</span>
@@ -78,63 +86,500 @@
                                                     <i class="fa-solid fa-arrow-right"></i>
                                                 </div>
                                             </div>
-                                           
+
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
-
- 
     </section>
-    <section  class="projects-section "> 
+    <section class="projects-section ">
 
-                <h4 class="p-h">Projects</h3>
-            <p class="p-p">The driving force of all speeches, we believe that creation <br/>should be the point around which any communication<br/> strategy revolves.</p>
+        <h4 class="p-h">Projects</h3>
+            <p class="p-p">The driving force of all speeches, we believe that creation <br />should be the point around
+                which any communication<br /> strategy revolves.</p>
     </section>
     <div class="marquee-container">
         <div class="marquee-lines"></div>
         <div class="marquee">
-          <div class="marquee-text">
-            <span>Make brands attractive and connect them to their audiences.</span>
-          </div>
-          <div class="marquee-text">
-            <span>Make brands attractive and connect them to their audiences.</span>
-          </div>
-          <div class="marquee-text">
-            <span>Make brands attractive and connect them to their audiences.</span>
-          </div>
+            <div class="marquee-text">
+                <span>Make brands attractive and connect them to their audiences.</span>
+            </div>
+            <div class="marquee-text">
+                <span>Make brands attractive and connect them to their audiences.</span>
+            </div>
+            <div class="marquee-text">
+                <span>Make brands attractive and connect them to their audiences.</span>
+            </div>
         </div>
         <div class="marquee-lines"></div>
 
-      </div>
-      <section  class="projects-section "> 
+    </div>
+    <section class="projects-section image-section animated-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-container">
+                    <img src="image1.jpg" alt="Image 1" style="width: 100%; ">
+                    <div class="projects-section image-text">
+                        <div class="hero-arrow ">
+                            <i style="color: white;transform: rotate(45deg); font-size: xx-large;" class="fas fa-arrow-right"></i>
+            
+                        </div>
+                        <div class="item-caption">
+                            <h2 class="item-cat">
+                                <span>2022</span>
+                                <br>
+                                <span>Brand
+                                    Identity</span>
+                                </h2>
+                                <br>
+                            <h2 class="item-title">
+                                <span>The  </span><span>  Beautiful</span><span>  Ladies</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6 d-flex " style="justify-content: flex-end;align-items: center;">
+                    <div class="image-container">
 
-        <h4 class="p-h">Projects</h3>
-    <p class="p-p">The driving force of all speeches, we believe that creation <br/>should be the point around which any communication<br/> strategy revolves.</p>
-</section> 
+                    <img src="image2.jpg" alt="Image 2" style="width: 100%; height: 500px;margin:auto">
+                    <div class="projects-section image-text">
+                        <div class="hero-arrow ">
+                            <i style="color: white;transform: rotate(45deg); font-size: xx-large;" class="fas fa-arrow-right"></i>
+            
+                        </div>
+                        <div class="item-caption">
+                            <h2 class="item-cat">
+                                <span>2022</span>
+                                <br>
+                                <span>Brand
+                                    Identity</span>
+                                </h2>
+                                <br>
+                            <h2 class="item-title">
+                                <span>The  </span><span>  Beautiful</span><span>  Ladies</span>
+                            </h2>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 ">
+                    <div class="image-container">
+
+                    <img src="image4.jpg" alt="Image 2" style="width: 80%; height: 500px;margin-top: 80px;">
+                    <div class="projects-section image-text">
+                        <div class="hero-arrow ">
+                            <i style="color: white;transform: rotate(45deg); font-size: xx-large;" class="fas fa-arrow-right"></i>
+            
+                        </div>
+                        <div class="item-caption">
+                            <h2 class="item-cat">
+                                <span>2022</span>
+                                <br>
+                                <span>Brand
+                                    Identity</span>
+                                </h2>
+                                <br>
+                            <h2 class="item-title">
+                                <span>The  </span><span>  Beautiful</span><span>  Ladies</span>
+                            </h2>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-8 d-flex " style="justify-content: flex-end;align-items: center;">
+                    <div class="image-container">
+
+                    <img src="image3.jpg" alt="Image 1" style="width: 70%;margin-right: auto; ">
+                    <div class="projects-section image-text">
+                        <div class="hero-arrow ">
+                            <i style="color: white;transform: rotate(45deg); font-size: xx-large;" class="fas fa-arrow-right"></i>
+            
+                        </div>
+                        <div class="item-caption">
+                            <h2 class="item-cat">
+                                <span>2022</span>
+                                <br>
+                                <span>Brand
+                                    Identity</span>
+                                </h2>
+                                <br>
+                            <h2 class="item-title">
+                                <span>The  </span><span>  Beautiful</span><span>  Ladies</span>
+                            </h2>
+                        </div>
+                    </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="projects-section ">
+
+        <!-- <h4 class="p-h">Projects</h3> -->
+        <h4 class="see-more-portfolio">Still Not
+            <br /> Convinced?
+        </h4>
+       
+
+        <div class="button-wrap right button-link large-btn has-animation animated d-flex">
+            <a class="read-more-link" href="about.html" data-type="page-transition">
+                <div class="button-text sticky right">
+                    <span style="color: #000;font-weight: 500;font-size: x-large;" data-hover="Read More">View All
+                        Works</span>
+                </div>
+                <div style="width: 21%;" class="marquee-lines"></div>
+
+            </a>
+            <div class="icon-wrap parallax-wrap">
+                <div class="button-icon parallax-element">
+                    <i style="color: #000;" class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- <section class=" ">
+        <section class="engagements-section" style="height: 120vh;">
+            <div class="row floating-text">
+                <div class="col-md-12 ">
+                    <h5>Recent Engagements</h5>
+                    <h1 class="big-title">We&#8217;ve shipped hundreds of successful projects and features for our
+                        clients.</h1>
+                    <hr />
+                    <h5>The driving force of all speeches, we believe that creation should be the point around.</h5>
+                </div>
+            </div>
+            <div class=" projects-section infininte-scroll">
+                <div class="row ">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="image4.jpg" alt="Image 4" width="100%">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+    </section> -->
+    <section class="projects-section ">
+        <h1 class="has-mask-fill no-margins">News</h1>
+
+
+
+        <h1 class="has-mask-fill">Featured</h1>
+        <p class="p-p">There are many variations of passages of Lorem
+            Ipsum<br /> available, but the majority have suffered alteration in some <br />form
+            by injected humour.</p>
+
+    </section>
+    <div class="marquee-lines"></div>
+
+
+    <section id="horizontal-scoll">
+        <div class="horizontal-scoll-wrapper">
+            <div class="horizontal">
+                <div>
+                    <div class="card">
+                        <ul class="post-categories card-text ">
+                            <div class="news-panel">
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/nature/"
+                                        rel="category tag"><span data-hover="Nature">Nature</span></a></li>
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/travel/"
+                                        rel="category tag"><span data-hover="Travel">Travel</span></a></li>
+                            </div>
+
+                            <div class="news-panel-title"><span>Blue Ocean Waves</span>
+                            </div>
+                        </ul>
+                        <img src="card1.png" />
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <ul class="post-categories card-text ">
+                            <div class="news-panel">
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/nature/"
+                                        rel="category tag"><span data-hover="Nature">Nature</span></a></li>
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/travel/"
+                                        rel="category tag"><span data-hover="Travel">Travel</span></a></li>
+                            </div>
+
+                            <div class="news-panel-title"><span>Blue Ocean Waves</span>
+                            </div>
+                        </ul>
+                        <img src="card2.png" />
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <ul class="post-categories card-text ">
+                            <div class="news-panel">
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/nature/"
+                                        rel="category tag"><span data-hover="Nature">Nature</span></a></li>
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/travel/"
+                                        rel="category tag"><span data-hover="Travel">Travel</span></a></li>
+                            </div>
+
+                            <div class="news-panel-title"><span>Blue Ocean Waves</span>
+                            </div>
+                        </ul>
+                        <img src="card3.png" />
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <ul class="post-categories card-text ">
+                            <div class="news-panel">
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/nature/"
+                                        rel="category tag"><span data-hover="Nature">Nature</span></a></li>
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/travel/"
+                                        rel="category tag"><span data-hover="Travel">Travel</span></a></li>
+                            </div>
+
+                            <div class="news-panel-title"><span>Blue Ocean Waves</span>
+                            </div>
+                        </ul>
+                        <img src="card4.png" />
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <ul class="post-categories card-text ">
+                            <div class="news-panel">
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/nature/"
+                                        rel="category tag"><span data-hover="Nature">Nature</span></a></li>
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/travel/"
+                                        rel="category tag"><span data-hover="Travel">Travel</span></a></li>
+                            </div>
+
+                            <div class="news-panel-title"><span>Blue Ocean Waves</span>
+                            </div>
+                        </ul>
+                        <img src="card5.png" />
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <ul class="post-categories card-text ">
+                            <div class="news-panel">
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/nature/"
+                                        rel="category tag"><span data-hover="Nature">Nature</span></a></li>
+                                <li class="link"><a class="link" data-type="page-transition"
+                                        href="http://clapat-themes.com/wordpress/humpton/category/travel/"
+                                        rel="category tag"><span data-hover="Travel">Travel</span></a></li>
+                            </div>
+
+                            <div class="news-panel-title"><span>Blue Ocean Waves</span>
+                            </div>
+                        </ul>
+                        <img src="card1.png" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section ">
+
+        <!-- <h4 class="p-h">Projects</h3> -->
+        <h4 class="see-more-portfolio" style="font-size: calc(1rem + 2vw);
+    line-height: calc(1rem + 3.5vw); font-weight: 500;">Read
+            <br /> All Stories
+        </h4>
+        <br>
+
+        <div class="button-wrap right button-link large-btn has-animation animated d-flex">
+            <a class="read-more-link" href="about.html" data-type="page-transition">
+                <div class="button-text sticky right">
+                    <span style="color: #000;font-weight: 500;font-size: x-large;" data-hover="Read More">Go to
+                        Blog</span>
+                </div>
+                <div style="width: 15%;" class="marquee-lines"></div>
+
+            </a>
+            <div class="icon-wrap parallax-wrap">
+                <div class="button-icon parallax-element">
+                    <i style="color: #000;" class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="footer-last" style="background-color: #000;">
+        <div class="projects-section">
+            <div class="hero-arrow ">
+                <i style="color: white;transform: rotate(45deg); font-size: xx-large;" class="fas fa-arrow-right"></i>
+
+            </div>
+            <h2 style="color: white;">About <br />Our Agency</h2>
+        </div>
+        <div class="marquee-container">
+            <div class="marquee2">
+                <div class="marquee-text2">
+                    <span>Creative Studio Design - </span>
+                </div>
+                <div class="marquee-text2">
+                    <span>Creative Studio Design - </span>
+                </div>
+                <div class="marquee-text2">
+                    <span>Creative Studio Design - </span>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-container">
+                    <!-- Other footer content... -->
+                    <div class="footer-items">
+                        <a href="#"><i style="margin-right: 10px;" class="fas fa-arrow-up"></i> Back to Top</a>
+                        <span>&copy; 2022 All Rights Reserved</span>
+                        <div class="follow-us">
+                            <span>Follow Us:</span>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </section>
 </body>
 <script>
-           const cursor = document.querySelector('.cursor');
+    const cursor = document.querySelector('.cursor');
+    const imageSectionImages = document.querySelectorAll('.image-section img');
+    const body = document.body;
 
-        document.addEventListener('mousemove', e => {
-            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-        })
+    const viewProjectCursor = document.createElement('div');
+    viewProjectCursor.className = 'viewproject-cursor';
+    viewProjectCursor.textContent = 'View Project';
+    body.appendChild(viewProjectCursor);
 
-        document.addEventListener('click', () => {
-            cursor.classList.add("expand");
+    document.addEventListener('mousemove', e => {
+        cursor.style.top = (e.pageY - 10) + "px";
+        cursor.style.left = (e.pageX - 10) + "px";
 
-            setTimeout(() => {
-                cursor.classList.remove("expand");
-            }, 500)
-        })
+        viewProjectCursor.style.top = (e.pageY - 30) + "px";
+        viewProjectCursor.style.left = (e.pageX - 20) + "px";
+
+        if (e.target.closest('.image-section img')) {
+            viewProjectCursor.style.display = 'block';
+        } else {
+            viewProjectCursor.style.display = 'none';
+        }
+    });
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500);
+    });
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    let horizontalSection = document.querySelector('.horizontal');
+
+    console.log(horizontalSection.scrollWidth);
+
+    gsap.to('.horizontal', {
+        x: () => horizontalSection.scrollWidth * -1,
+        xPercent: 100,
+        scrollTrigger: {
+            trigger: '.horizontal',
+            start: 'center center',
+            end: '+=2000px',
+            pin: '#horizontal-scoll',
+            scrub: true,
+            invalidateOnRefresh: true
+        }
+    });
+
 </script>
+
 </html>

@@ -1,11 +1,11 @@
-/* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins';
   }
   
   /* Header styles */
@@ -58,8 +58,6 @@ body, h1, h2, h3, p, ul, li {
   /* Hero section styles */
   #hero {
     position: relative;
-    /* height: 200vh;  */
-    /* padding-left: 60px; */
     padding: 60px;
     position: relative;
     background-image: url('./02hero-scaled.jpg');
@@ -74,7 +72,6 @@ body, h1, h2, h3, p, ul, li {
   #hero-styles {
     position: relative;
     z-index: 2;
-    /* padding-top: 60px; */
   }
   
   #hero-caption {
@@ -94,7 +91,6 @@ body, h1, h2, h3, p, ul, li {
     display: block;
     overflow: hidden;
     margin-left: 0px;
-
   }
   
   .hero-title {
@@ -156,9 +152,6 @@ body, h1, h2, h3, p, ul, li {
     margin-top: 30px;
   }
   .scroll-down {
-    /* position: absolute; */
-    /* bottom: 370px; */
-    /* right: 20px; */
     opacity: 1;
     transition: opacity 0.3s;
     float: right;
@@ -180,14 +173,12 @@ body, h1, h2, h3, p, ul, li {
     display: block;
     overflow: hidden;
     margin-left: 0px;
-    
+  }
+  #hero-description .col-md-7 {
+    padding-top: 40px; 
+    margin-left: 30px;
   }
 
-
-    #hero-description .col-md-7 {
-            padding-top: 40px; 
-            margin-left: 30px;
-        }
 .read-more-link{
     color: #fff;
     font-size: 16px;
@@ -206,28 +197,26 @@ body, h1, h2, h3, p, ul, li {
 .button-wrap.right {
     margin-top: 20px;
 }
-
-/* Style the right arrow icon */
 .read-more-link:hover .button-icon {
-    transform: translateX(5px); /* Move the icon to the right */
+    transform: translateX(5px); 
 }
 .button-wrap.right {
-    margin-top: 20px; /* Adjust this margin as needed */
-    align-items: center; /* Align items vertically in the flex container */
+    margin-top: 20px; 
+    align-items: center; 
 }
 
 .button-text.sticky {
-    margin-right: 10px; /* Adjust this margin to make the button and icon closer */
+    margin-right: 10px;
 }
 .button-wrap.right {
-    margin-top: 20px; /* Adjust this margin as needed */
-    align-items: center; /* Align items vertically in the flex container */
-    position: relative; /* Add relative positioning to the container */
+    margin-top: 20px; 
+    align-items: center; 
+    position: relative; 
 }
 
 .icon-wrap {
-    display: none; /* Initially hide the icon */
-    position: absolute; /* Position the icon absolutely within the container */
+    display: none; 
+    position: absolute; 
     right: 0;
 }
 
@@ -275,7 +264,7 @@ body, h1, h2, h3, p, ul, li {
     color: black;
     letter-spacing: .01em;
     padding: 0 1vw;
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap;
   }
   
   .content{
@@ -345,4 +334,312 @@ body, h1, h2, h3, p, ul, li {
 .expand {
     animation: cursorAnim3 .5s forwards;
 
+}
+
+.image-section img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-section img:hover {
+  transform: scale(0.9);
+}
+.see-more-portfolio{
+  font-weight: 700;
+  line-height: 4rem;
+  font-size: calc(1rem + 2vw);
+}
+.viewproject-cursor {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #cf2e2e;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.big-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.engagements-section {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  overflow: auto;
+  position: relative;
+}
+
+.floating-text {
+
+  position: absolute;
+  /* top: 10%; */
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+  z-index: 1;
+  overflow: auto;
+
+}
+.engagements-section::-webkit-scrollbar {
+  display: none;
+}
+.floating-text h5,
+.floating-text h1
+.floating-text hr {
+  font-size: 10vw;
+    line-height: 13vw;
+    font-weight: 500;
+     margin-left: -0.7vw;
+}
+
+
+
+.has-mask-fill{
+  font-size: calc(1rem + 4.15vw);
+    line-height: calc(1rem + 5.5vw);
+}
+
+
+/* horizontal scroll */
+
+#horizontal-scoll {
+  padding: 60px 0;
+}
+
+.horizontal-scoll-wrapper {
+  overflow: hidden;
+  height: 525px;
+}
+
+.horizontal {
+  display: flex;
+  height: 100%;
+}
+
+.horizontal > div {
+  padding: 0 5px;
+}
+
+.horizontal > div:first-child {
+  padding: 0 5px 0 15px;
+}
+
+.horizontal > div:last-child {
+  padding: 0 15px 0 5px;
+}
+
+.horizontal .card {
+  align-items: stretch;
+  width: 468px;
+  color: #f6f2e8;
+}
+/* Add this CSS to style the text on top of the images */
+.card {
+  position: relative; /* To make the text positioned relative to the card */
+}
+
+.card-text {
+  position: absolute;
+bottom: 0;
+  color: white; /* Set the color of the text */
+
+  padding: 5px 10px; /* Add some padding to the text */
+}
+
+.news-panel  {
+ display: flex;
+ gap:30px;
+  pointer-events: none;
+  padding: 0px 56px;
+
+}
+.news-panel-title{
+  padding: 19px 53px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  display: block;
+  position: relative;
+  color: #fff;
+}
+.link{
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+}
+.marquee2 {
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
+.marquee-text2 {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee2 {
+  0% {
+  transform: translateX(0); 
+}
+  100% { 
+  transform: translateX(-100%); 
+}
+}
+.marquee-text2 span {
+  display: inline-block;
+font-size: 10rem;
+color: white;
+letter-spacing: .01em;
+padding: 0 1vw;
+white-space: nowrap;
+}
+
+.content2{
+position: relative;
+padding: 60px 0;
+text-align: center;
+line-height: 1.5;
+}
+.marquee-lines2 {
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+/* Add these styles to your existing styles.css file */
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding: 30px;
+}
+
+.footer-items a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer-items span {
+  color: white;
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+}
+
+.follow-us span {
+  margin-right: 10px;
+  color: white;
+}
+
+.follow-us a {
+  margin: 0 5px;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0;
+right: -16px;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  z-index: 10;
+    position: absolute;
+    bottom: 0px;
+    height: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: default;
+    pointer-events: none;
+}
+
+.image-container:hover .image-text {
+  transform: translateY(0);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+ 
+  
+  /* Adjust hero section for mobile */
+  #hero {
+    padding: 0px;
+  }
+  
+  .hero-subtitle {
+    font-size: 52px;
+    line-height: 67px;
+    text-align: left;
+    
+  }
+  
+  .hero-title {
+    font-size: 52px;
+    line-height: 67px;
+    text-align: left;
+
+  }
+  .hero-text{
+    font-size: 25px;
+    line-height: 43px;
+  }
+  .scroll-down {
+    padding: 5px 10px;
+  }
+  .projects-section {
+    padding: 21px;
+    margin-left: 24px;
+  }
+  .marquee-text span{
+    font-size: 3rem;
+  }
+  .marquee-text2 span{
+    font-size: 3rem;
+  }
+  .see-more-portfolio{
+    line-height: 2rem;
+  }
+  .footer-items {
+
+    padding: 0px;
+  }
+  .horizontal .card {
+    width: 468px;
+    padding: 22px;
+    border: none;
+  }
+  
 }
