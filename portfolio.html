@@ -1,103 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scroll-Triggered Animations</title>
-<link rel="stylesheet" href="portfolio.css"> <!-- Link to the external CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/utils/Draggable.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
+    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=435
+"></script>
+    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/Draggable3.min.js?r=897
+"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-  <div class="container">    
-    <section class="panel red">
-      <div class="bg"></div>
-      <h1>
-        SLIDE 2
-      </h1>
-    </section>
-    
-    <section class="panel gray">
-      <div>
-    SLIDE 3
-        <div class="animated-list">
-          
-          <div class="list-left">
-            <ul>
-              <li class="active"><h1>Text 1</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
-              <li><h1>Text 2</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
-              <li><h1>Text 3</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
-              <li><h1>Text 4</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
-              <li><h1>Text 5</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
-              <li><h1>Text 6</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p></li>
+    <div class="cursor"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-          </div>
-          <div class="list-right">
-            <div class="list-img"></div>
-          </div>
         </div>
-        
-        
-  </div>
-    </section>
-    <section class="panel purple">
-      <div>
-        SLIDE 4
-      </div>
-    </section>
-    <section class="panel green">
-      <div>
-        SLIDE 5
-      </div>
-    </section>
-  </div>
-  
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-  <script>
-gsap.registerPlugin(ScrollTrigger);
+    </header>
+    <div class="hideMe">
+        <svg id="leftArrow" class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <g stroke-linejoin="round" stroke-linecap="round">
+                <circle r="46" cx="50" cy="50" />
+                <polyline points="60 25, 30 50, 60 75"></polyline>
+            </g>
+        </svg>
+        <svg id="rightArrow" class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <g stroke-linejoin="round" stroke-linecap="round">
+                <circle r="46" cx="50" cy="50" />
+                <polyline points="40 25, 70 50, 40 75"></polyline>
+            </g>
+        </svg>
+        <div id="masterWrap">
+            <div id="panelWrap">
+                <div>
+                    <section class="section section1" style="background-image:url(image1.jpg);" >
+                        <!-- <img class="parallax-img" src="image1.jpg" alt="Image 2" width="100%"> -->
 
-let sections = gsap.utils.toArray(".panel");
+                        <div class="projects-section image-text">
+                            <div class="hero-arrow ">
+                                <i style="color: white;transform: rotate(45deg); font-size: xx-large;"
+                                    class="fas fa-arrow-right"></i>
 
-let scrollTween = gsap.to(sections, {
-    xPercent: -100 * (sections.length - 1),
-    ease: "none", // <-- IMPORTANT!
-    scrollTrigger: {
-      trigger: ".container",
-      pin: true,
-      scrub: 0.1,
-      //snap: directionalSnap(1 / (sections.length - 1)),
-      end: "+=3000"
-    }
-  });
+                            </div>
+                            <div class="item-caption">
+                                <h2 class="item-cat">
+                                    <span>2022</span>
+                                    <br>
+                                    <span>Brand
+                                        Identity</span>
+                                </h2>
+                                <h2 class="item-title">
+                                    <span>The </span><br><span> Beautiful</span><br><span> Ladies</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section section2" style="background-image:url(image5.jpg);">
+                        <!-- <img class="parallax-img" src="image5.jpg" alt="Image 2" width="100%"> -->
 
-// red section
-gsap.to(".red h1", {
-  duration: 20,
-  opacity:1,
-  ease: "elastic",
-  scrollTrigger: {
-    trigger: ".red",
-    containerAnimation: scrollTween,
-    start: "-20% center",
-    toggleActions: "play none none reset",
-    scrub: true,
-    id: "1"
-  }
-});
+                        <div class="projects-section image-text">
+                            <div class="hero-arrow ">
+                                <i style="color: white;transform: rotate(45deg); font-size: xx-large;"
+                                    class="fas fa-arrow-right"></i>
 
-gsap.to(".red .bg", {
-  opacity:1,
-  duration: 2,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".red",
-    containerAnimation: scrollTween,
-    start: "left center",
+                            </div>
+                            <div class="item-caption">
+                                <h2 class="item-cat">
+                                    <span>2022</span>
+                                    <br>
+                                    <span>Brand
+                                        Identity</span>
+                                </h2>
+                                <h2 class="item-title">
+                                    <span>The </span><br><span> Beautiful</span><br><span> Ladies</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section section3" style="background-image:url(image2.jpg);">
+                        <!-- <img class="parallax-img" src="image2.jpg" alt="Image 3" width="100%"> -->
 
-    scrub: true,
-    id: "2"
-  }
-}); 
-  </script>
+                        <div class="projects-section image-text">
+                            <div class="hero-arrow ">
+                                <i style="color: white;transform: rotate(45deg); font-size: xx-large;"
+                                    class="fas fa-arrow-right"></i>
+                            </div>
+                            <div class="item-caption">
+                                <h2 class="item-cat">
+                                    <span>2022</span>
+                                    <br>
+                                    <span>Brand
+                                        Identity</span>
+                                </h2>
+                                <h2 class="item-title">
+                                    <span>The </span><br><span> Beautiful</span><br><span> Ladies</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section section4" style="background-image:url(image4.jpg);">
+                        <!-- <img class="parallax-img" src="image4.jpg" alt="Image 3" width="100%"> -->
+
+                        <div class="projects-section image-text">
+                            <div class="hero-arrow ">
+                                <i style="color: white;transform: rotate(45deg); font-size: xx-large;"
+                                    class="fas fa-arrow-right"></i>
+
+                            </div>
+                            <div class="item-caption">
+                                <h2 class="item-cat">
+                                    <span>2022</span>
+                                    <br>
+                                    <span>Brand
+                                        Identity</span>
+                                </h2>
+                                <h2 class="item-title">
+                                    <span>The </span><br><span> Beautiful</span><br><span> Ladies</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section section5" style="background-image:url(image5.jpg);">
+                        <!-- <img class="parallax-img" src="image5.jpg" alt="Image 4" width="100%"> -->
+
+                        <div class="projects-section image-text">
+                            <div class="hero-arrow ">
+                                <i style="color: white;transform: rotate(45deg); font-size: xx-large;"
+                                    class="fas fa-arrow-right"></i>
+                            </div>
+                            <div class="item-caption">
+                                <h2 class="item-cat">
+                                    <span>2022</span>
+                                    <br>
+                                    <span>Brand
+                                        Identity</span>
+                                </h2>
+                                <h2 class="item-title">
+                                    <span>The </span><br><span> Beautiful</span><br><span> Ladies</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+        </div>
+    </div>
 </body>
+<script>
+
+    console.clear();
+    const colorArray = [
+        "#683A5E",
+        "#262626",
+        "#426F42",
+        "#8B814C",
+        "#36648B",
+        "#36648B"
+    ];
+    const slides = document.querySelectorAll("section");
+    const container = document.querySelector("#panelWrap");
+    let dur = 0.5;
+    let offsets = [];
+    let oldSlide = 0;
+    let activeSlide = 0;
+    let dots = document.querySelector(".dots");
+    let navDots = [];
+    let iw = window.innerWidth;
+    const mouseAnim = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+    const handAnim = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+    const cursorAnim = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+    const arrowAnim = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+
+    document.querySelector("#leftArrow").addEventListener("click", slideAnim);
+    document.querySelector("#rightArrow").addEventListener("click", slideAnim);
+
+    // set slides background colors and create the nav dots
+    for (let i = 0; i < slides.length; i++) {
+        gsap.set(slides[i], { backgroundColor: colorArray[i] });
+        let newDot = document.createElement("div");
+        newDot.className = "dot";
+        newDot.index = i;
+        navDots.push(newDot);
+        newDot.addEventListener("click", slideAnim);
+        dots.appendChild(newDot);
+    }
+
+    // icon animations for slide 1
+    mouseAnim.fromTo(
+        "#mouseRings circle",
+        { attr: { r: 10 } },
+        { attr: { r: 40 }, duration: 0.8, stagger: 0.25 }
+    );
+    mouseAnim.fromTo(
+        "#mouseRings circle",
+        { opacity: 0 },
+        { opacity: 1, duration: 0.4, stagger: 0.25 },
+        0
+    );
+    mouseAnim.fromTo(
+        "#mouseRings circle",
+        { opacity: 1 },
+        { opacity: 0, duration: 0.4, stagger: 0.25 },
+        0.4
+    );
+
+    handAnim.to("#hand", { duration: 0.75, rotation: -10, transformOrigin: "center bottom" });
+    handAnim.to("#hand", { duration: 0.5, rotation: 14, ease: "power3.inOut" });
+    handAnim.to("#hand", { duration: 1, rotation: 0, transformOrigin: "center bottom" });
+
+    cursorAnim.to("#cursor", { duration: 0.25, x: -22 });
+    cursorAnim.to(
+        "#iconCircles circle",
+        0.5,
+        { duration: 0.5, attr: { r: 6 }, stagger: 0.15 },
+        "expand"
+    );
+    cursorAnim.to("#cursor", { duration: 1.1, x: 40 }, "expand");
+    cursorAnim.to("#cursor", { duration: 0.75, x: 0 }, "contract");
+    cursorAnim.to("#iconCircles circle", { duration: 0.5, attr: { r: 4 } }, "contract");
+
+    arrowAnim.to("#caret", {
+        duration: 0.5,
+        attr: { points: "60 30, 35 50, 60 70" },
+        repeat: 3,
+        yoyo: true,
+        ease: "power2.inOut",
+        repeatDelay: 0.25
+    });
+
+    // get elements positioned
+    gsap.set(".dots, .titleWrap", { xPercent: -50 });
+    gsap.set(".arrow", { yPercent: -50 });
+    gsap.set(".title", { y: 30 });
+
+    // lower screen animation with nav dots and rotating titles
+    const dotAnim = gsap.timeline({ paused: true });
+    dotAnim.to(
+        ".dot",
+        {
+            stagger: { each: 1, yoyo: true, repeat: 1 },
+            scale: 2.1,
+            rotation: 0.1,
+            ease: "none"
+        },
+        0.5
+    );
+    dotAnim.to(
+        ".title",
+        slides.length + 1,
+        { y: -(slides.length * 30), rotation: 0.01, ease: "none" },
+        0
+    );
+    dotAnim.time(1);
+
+    // make the whole thing draggable
+    gsap.registerPlugin(Draggable)
+
+    let dragMe = Draggable.create(container, {
+        type: "x",
+        edgeResistance: 1,
+        snap: offsets,
+        inertia: true,
+        bounds: "#masterWrap",
+        onDrag: tweenDot,
+        onThrowUpdate: tweenDot,
+        onDragEnd: slideAnim,
+        allowNativeTouchScrolling: false,
+        zIndexBoost: false
+    });
+
+    dragMe[0].id = "dragger";
+    sizeIt();
+
+    // main action check which of the 4 types of interaction called the function
+    function slideAnim(e) {
+        oldSlide = activeSlide;
+        // dragging the panels
+        if (this.id === "dragger") {
+            activeSlide = offsets.indexOf(this.endX);
+        } else {
+            if (gsap.isTweening(container)) {
+                return;
+            }
+            // arrow clicks
+            if (this.id === "leftArrow" || this.id === "rightArrow") {
+                activeSlide =
+                    this.id === "rightArrow" ? (activeSlide += 1) : (activeSlide -= 1);
+                // click on a dot
+            } else if (this.className === "dot") {
+                activeSlide = this.index;
+                // scrollwheel
+            } else {
+                activeSlide = e.deltaY > 0 ? (activeSlide += 1) : (activeSlide -= 1);
+            }
+        }
+        // make sure we're not past the end or beginning slide
+        activeSlide = activeSlide < 0 ? 0 : activeSlide;
+        activeSlide = activeSlide > slides.length - 1 ? slides.length - 1 : activeSlide;
+        if (oldSlide === activeSlide) {
+            return;
+        }
+        // if we're dragging we don't animate the container
+        if (this.id != "dragger") {
+            gsap.to(container, dur, { x: offsets[activeSlide], onUpdate: tweenDot });
+        }
+    }
+
+    // update the draggable element snap points
+    function sizeIt() {
+        offsets = [];
+        iw = window.innerWidth;
+        gsap.set("#panelWrap", { width: slides.length * iw });
+        gsap.set(slides, { width: iw });
+        for (let i = 0; i < slides.length; i++) {
+            offsets.push(-slides[i].offsetLeft);
+        }
+        gsap.set(container, { x: offsets[activeSlide] });
+        dragMe[0].vars.snap = offsets;
+    }
+
+    gsap.set(".hideMe", { opacity: 1 });
+    window.addEventListener("wheel", slideAnim);
+    window.addEventListener("resize", sizeIt);
+
+    // update dot animation when dragger moves
+    function tweenDot() {
+        gsap.set(dotAnim, {
+            time: Math.abs(gsap.getProperty(container, "x") / iw) + 1
+        });
+    }
+    const cursor = document.querySelector('.cursor');
+    const imageSectionImages = document.querySelectorAll('.image-section img');
+    const body = document.body;
+
+    const viewProjectCursor = document.createElement('div');
+    viewProjectCursor.className = 'viewproject-cursor';
+    viewProjectCursor.textContent = 'View Project';
+    body.appendChild(viewProjectCursor);
+
+    document.addEventListener('mousemove', e => {
+        cursor.style.top = (e.pageY - 10) + "px";
+        cursor.style.left = (e.pageX - 10) + "px";
+
+        viewProjectCursor.style.top = (e.pageY - 30) + "px";
+        viewProjectCursor.style.left = (e.pageX - 20) + "px";
+
+        if (e.target.closest('.image-section img')) {
+            viewProjectCursor.style.display = 'block';
+        } else {
+            viewProjectCursor.style.display = 'none';
+        }
+    });
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500);
+    });
+
+</script>
+
 </html>
