@@ -647,8 +647,9 @@
 					const slowedImagesRight = slowedPin.querySelectorAll('.slowed-image-right');					
 					
 					if( slowedText.offsetHeight > window.innerHeight ){							
-						
+						console.log("in one");
 						if ($(window).width() > 1024) {
+                            console.log("in 2");
 						
 							gsap.set(slowedPin, { height:window.innerHeight*5});
 						
@@ -658,7 +659,7 @@
 									scrub: true,
 									pin:true,
 									start: "top top",
-									end: "+=" + (slowedPin.offsetHeight - window.innerHeight),
+									end: "+" + (slowedPin.offsetHeight - window.innerHeight),
 								},
 								y:window.innerHeight - slowedText.offsetHeight
 							});
@@ -667,7 +668,7 @@
 								scrollTrigger: {
 									trigger:slowedText,
 									scrub: 2,
-									start: "top 100%",
+									start: "top 10%",
 									end: "+=" + (slowedPin.offsetHeight + window.innerHeight),
 								},
 								y:slowedPin.offsetHeight - slowedImagesWrapper.offsetHeight
