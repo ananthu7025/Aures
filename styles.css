@@ -245,6 +245,7 @@ body, h1, h2, h3, p, ul, li {
     color: #444;
     font-weight: 500;
 }
+/* Marquee container  */
 .marquee {
       overflow: hidden;
       white-space: nowrap;
@@ -283,6 +284,8 @@ body, h1, h2, h3, p, ul, li {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
   }
+/* Marquee container  */
+
   /* cursor animation */
   .cursor {
     width: 20px;
@@ -600,7 +603,9 @@ right: -16px;
 
 /* Mobile-specific styles */
 @media (max-width: 768px) {
- 
+ .parallax-img{
+  width: 100% !important;
+ }
   
   /* Adjust hero section for mobile */
   #hero {

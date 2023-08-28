@@ -523,12 +523,6 @@
     const cursor = document.querySelector('.cursor');
     const imageSectionImages = document.querySelectorAll('.image-section img');
     const body = document.body;
-
-    const viewProjectCursor = document.createElement('div');
-    viewProjectCursor.className = 'viewproject-cursor';
-    viewProjectCursor.textContent = 'View Project';
-    body.appendChild(viewProjectCursor);
-
     document.addEventListener('mousemove', e => {
         cursor.style.top = (e.pageY - 10) + "px";
         cursor.style.left = (e.pageX - 10) + "px";
@@ -699,7 +693,7 @@
 								scrub: true,
 								pin:true,
 								start: "top +" + (window.innerHeight/2 - slowedText.offsetHeight/2),
-								end: "+=" + (slowedPin.offsetHeight - (window.innerHeight/2 + slowedText.offsetHeight/2)),
+								end: "+=" + ((slowedPin.offsetHeight+10) - (window.innerHeight/2 + slowedText.offsetHeight/2)),
 							}
 						});
 					}				
