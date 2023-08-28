@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
-
+    <script src="porfolioDetails.js"></script>
     <!-- Include GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -53,7 +53,7 @@
         </div>
     </header>
 
-            <section id="" class="has-image" style="height: 175vh;position: relative; background-image: url(details.jpg);background-position: top;
+            <section id="" class="has-image" style="height: 175vh;position: relative; background-image: url(images/details.jpg);background-position: top;
             background-size: cover;">
                 <a href="#bottom" id="down1" class="down" style="display:block"></a>
 
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </section>
-            <section style="background-image: url(image1.jpg); width: 100%;height: 80vh;background-position: left;" >
+            <section style="background-image: url(images/image1.jpg); width: 100%;height: 80vh;background-position: left;" >
             </section>
             <section>
                 <div class="container">
@@ -160,7 +160,7 @@
                   
                     </div>
                     <div id="videoplyr">
-                        <img  src="image5.jpg"/>
+                        <img  src="images/image5.jpg"/>
                     </div>
                     <div id="holdr2" class="holdr">
                         <div id="fr" class="imgcntnr"></div>
@@ -194,10 +194,10 @@
                 <div class="row image-container">
         
                     <div class="col-md-6">
-                        <img src="gallery1.jpg" width="100%">
+                        <img src="images/gallery1.jpg" width="100%">
                     </div>
                     <div class="col-md-6">
-                        <img src="gallery2.jpg" width="100%">
+                        <img src="images/gallery2.jpg" width="100%">
 
                     </div>
 
@@ -235,66 +235,6 @@
                 </div>
             </div>
            </section>
-<script>
-    gsap.to('#videoplyr',{
-    scrollTrigger:{
-        trigger:"#main",
-        start:"top top",
-        scrub:2,
-        pin:"#main"
-    },
-    width:"100%",
-    ease:"Expo.easeInOut"
-})
-gsap.to('#one',{
-    scrollTrigger:{
-        trigger:"#main",
-        start:"top top",
-        scrub:3
-    },
-    left:"-600px",
-    opacity:0
-})
-gsap.to('#holdr1',{
-    scrollTrigger:{
-        trigger:"#main",
-        start:"top top",
-        scrub:3
-    },
-    left:"-300px",
-    opacity:0
-})
-gsap.to('#sx',{
-    scrollTrigger:{
-        trigger:"#main",
-        start:"top top",
-        scrub:2
-    },
-    right:"600px",
-    opacity:0
-})
-gsap.to('#holdr2',{
-    scrollTrigger:{
-        trigger:"#main",
-        start:"top top",
-        scrub:3
-    },
-    right:"0px",
-    opacity:0
-})
-document.querySelectorAll('.image-container img').forEach(img => {
-    img.onclick = () => {
-        document.getElementById('popup-image').src = img.src;
-        document.querySelector('.popup-img').style.display = "flex";
-    };
-});
 
-document.querySelector('.close-btn').addEventListener('click', () => {
-    document.querySelector('.popup-img').style.display = "none";
-    console.log("done");
-});
-
-
-</script>
   </body>
 </html>

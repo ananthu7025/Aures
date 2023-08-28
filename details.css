@@ -643,7 +643,7 @@ h5{
     overflow: hidden;
   }
   #main #one{
-    background-image: url(image1.jpg);
+    background-image: url(images/studio04.jpg);
   }
   #main .imgcntnr{
     background-size: cover;
@@ -651,16 +651,16 @@ h5{
   }
 
   #main #two{
-    background-image: url(image1.jpg);
+    background-image: url(images/image1.jpg);
   } #main #three{
-    background-image: url(image2.jpg);
+    background-image: url(images/image2.jpg);
   } #main #fr{
-    background-image: url(image3.jpg);
+    background-image: url(images/image3.jpg);
   } #main #fv{
-    background-image: url(image4.jpg);
+    background-image: url(images/image4.jpg);
   }
   #main #sx{
-    background-image: url(image5.jpg);
+    background-image: url(images/image5.jpg);
   }
   #videoplyr img{
     height: 100%;
