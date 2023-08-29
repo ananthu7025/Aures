@@ -1,12 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
     const cursor = document.querySelector('.cursor');
     const imageSectionImages = document.querySelectorAll('.image-section img');
+	const footer = document.querySelector('.footer-last');
     const body = document.body;
     document.addEventListener('mousemove', e => {
-        cursor.style.top = (e.pageY - 10) + "px";
-        cursor.style.left = (e.pageX - 10) + "px";
+		const cursorSize = 20; // Adjust the cursor size as needed
+        const cursorOffset = 20; // Adjust the offset from the right edge
 
+        // Calculate the cursor's position
+        const cursorTop = (e.pageY - cursorSize / 2) + 'px';
+        const cursorLeft = Math.min(e.pageX, window.innerWidth - cursorSize - cursorOffset) + 'px';
+
+        // Set the cursor's position
+        cursor.style.top = cursorTop;
+        cursor.style.left = cursorLeft;
+		footer.addEventListener('mouseenter', () => {
+			cursor.style.display = 'none'; // Hide the cursor circle
+		});
+	
+		// Event listener for when the mouse leaves the footer
+		footer.addEventListener('mouseleave', () => {
+			cursor.style.display = 'block'; // Show the cursor circle
+		});
         viewProjectCursor.style.top = (e.pageY - 30) + "px";
+		
         viewProjectCursor.style.left = (e.pageX - 20) + "px";
 
         if (e.target.closest('.image-section img')) {
