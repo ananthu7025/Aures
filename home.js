@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cursor = document.querySelector('.cursor');
     const imageSectionImages = document.querySelectorAll('.image-section img');
 	const footer = document.querySelector('.footer-last');
+	// const viewProjectCursor=this.querySelector('.animated-section')
     const body = document.body;
     document.addEventListener('mousemove', e => {
 		const cursorSize = 20; // Adjust the cursor size as needed
@@ -39,7 +40,9 @@ document.addEventListener("DOMContentLoaded", function () {
             cursor.classList.remove("expand");
         }, 500);
     });
+// When the document is ready
 
+  
     gsap.registerPlugin(ScrollTrigger);
 
     let horizontalSection = document.querySelector('.horizontal');
@@ -319,3 +322,75 @@ document.addEventListener("DOMContentLoaded", function () {
 			
 		}
 });
+document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("downloadButton").addEventListener("click", function() {
+		const zip = new JSZip();
+  
+		// Function to add a file to the zip
+		function addFileToZip(filename, content) {
+		  zip.file(filename, content);
+		}
+  
+		// Function to read and add the index.html file
+		function addIndexHtmlToZip() {
+		  const indexHtmlPath = "./contactus.html"; // Path to your index.html file
+		  fetch(indexHtmlPath)
+			.then(response => response.text())
+			.then(content => {
+			  addFileToZip("index.html", content);
+			  downloadZip();
+			})
+			.catch(error => {
+			  console.error("Error reading index.html:", error);
+			});
+		}
+  
+		// Function to trigger the download of the zip
+		function downloadZip() {
+		  // Generate the zip content
+		  zip.generateAsync({ type: "blob" }).then(function(content) {
+			// Create a download link for the zip
+			const link = document.createElement("a");
+			link.href = URL.createObjectURL(content);
+			link.download = "index_html.zip"; // Set the name for the zip file
+			link.style.display = "none";
+  
+			// Add the link to the DOM and click it
+			document.body.appendChild(link);
+			link.click();
+  
+			// Clean up
+			document.body.removeChild(link);
+		  });
+		}
+  
+		// Start the process by adding the index.html file
+		addIndexHtmlToZip();
+		
+		// Disable the button to prevent multiple clicks
+		this.disabled = true;
+	  });
+	// Get the "Scroll to Top" button element
+	var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+	console.log("one d");
+  
+	// Show the button when the user scrolls down
+	window.addEventListener("scroll", function() {
+	  if (window.scrollY > 200) {
+		scrollToTopBtn.style.display = "block";
+	  } else {
+		scrollToTopBtn.style.display = "none";
+	  }
+	});
+  
+	// Scroll to the top when the button is clicked
+	scrollToTopBtn.addEventListener("click", function() {
+	  // Smooth scroll to the top
+	  window.scrollTo({
+		top: 0,
+		behavior: "smooth"
+	  });
+	});
+  });
+
+  
