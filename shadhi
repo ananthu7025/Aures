@@ -1,0 +1,2502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="csrf-token" content="3OUWHbE3E1XxhUhphvGKOhDLCvFGBZqOo71vN3eF">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+
+    <meta name="author" content="shaadiwire.in">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/fonts/icomoon/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/daterangepicker.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/aos.css">
+    
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/scripts/ionicons/css/ionicons.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/bootstrap.min1.css">
+    <!-- plugins -->
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/plugins-css.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/mega-menu/mega_menu.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/style.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/skins/all.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/default.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/style.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/responsive.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/style-customizer.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/custom.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/assets/css/megamenu.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/home-form.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/autosearch.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/category-style.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/listing.css">
+    <link rel="stylesheet" href="https://shaadiwire.in/frontend/assets/css/icon_fonts/css/all_icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Include SweetAlert2 CSS -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&family=Merriweather&family=Nunito&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <style>
+ 
+    /* Add styling for OTP input fields */
+    .otp-input {
+        width: 2em;
+        height: 2em;
+        margin: 0 0.2em; 
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .inputBox {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin-left: 5px;
+    }
+    
+    
+</style>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+             !important
+        }
+
+        h1 {
+            font-family: 'Merriweather', sans-serif;
+             !important
+            /* font-weight: 900; !important */
+        }
+
+        h2 {
+            font-family: 'Merriweather', sans-serif;
+             !important
+        }
+
+        h3 {
+            font-family: 'Merriweather', sans-serif;
+             !important
+        }
+
+        h4 {
+            font-family: 'Merriweather', sans-serif;
+             !important
+        }
+
+
+        
+
+        .breadcrumb {
+            background-color: transparent;
+             !important
+        }
+        .vendors1000pic{
+            max-height: 520px;
+            padding-top: 0px;
+            margin-top: 4px;
+        }
+
+        #btn-cont {
+            text-align: center;
+            width: 100%;
+            display: block;
+            position: relative;
+            height: auto;
+
+        }
+
+        .ai-textArea {
+            margin: auto;
+        }
+
+        .main-search {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        #btn-search {
+            max-width: 180%;
+            max-height: 100%;
+            text-align: center;
+        }
+
+
+
+        .btnCatHome {
+            background-color: white;
+            border: 1px solid #ffffff;
+            color: #000;
+            padding: 0px 25px 0px 0px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+            border-radius: 50px;
+            margin: 20px;
+        }
+
+        .btn2 {
+            background-color: white;
+            border: 1px solid #ff577f;
+            color: rgb(155, 155, 155);
+            padding: 8px 20px 8px 15px;
+            font-size: 0.8em;
+            cursor: pointer;
+            font-weight: 500;
+            border-radius: 50px;
+            padding: auto;
+            margin: 5px;
+        }
+
+        /* Darker background on mouse-over */
+        .btn2:hover {
+            background-color: #f0f0f0;
+            border: 1px solid #ffffff;
+            color: #ff577f;
+        }
+
+        .btn {
+            font-size: 13px;
+            padding-bottom: 10px;
+        }
+
+        /* Category Page */
+
+        .cat-content-area {
+            background-color: #FFF9FC;
+            padding-bottom: 0;
+            min-height: 60vh;
+        }
+
+        .sidebar {
+            min-height: 60vh;
+            background-color: #FFF0F9;
+            /* width: 400px; */
+        }
+
+        .form-control {
+            background: white;
+            /* border-radius: 50px; */
+            font-size: medium;
+            height: 35px;
+            color: #FF6289;
+        }
+
+        .hero-text {
+            filter: drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.4));
+        }
+
+        .searchfield {
+            height: 42px;
+        }
+
+        .form-check-label {
+            font-size: smaller;
+        }
+
+        .header-6 .mega-menu .menu-links>li:last-child>a {
+            background: #ff6289;
+        }
+
+        /*   Listing  */
+
+        .featured-img {
+            height: 534px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 990px) {
+
+            .featured-img {
+                height: auto;
+                /* max-height: 534px; */
+                width: 100%;
+            }
+
+            .menuing {
+    text-align: left;
+}
+
+.menu-trigger {
+    position: absolute;
+    left: 0; /* Position the trigger button to the left */
+    top: 0; /* You might need to adjust the top position based on your design */
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-end; /* Align menu contents to the right */
+    position: relative; /* Enable positioning for the trigger button */
+}
+
+@media (max-width: 992px) {
+    .menu-logo {
+        text-align: right;
+    }
+    .menu-logo li {
+        display: inline-block;
+    }
+}
+        }
+
+        .side-gal {
+            width: 700px;
+            height: 263px;
+            object-fit: cover;
+        }
+
+        .small-gal {
+            width: 350px;
+            height: 130px;
+            object-fit: cover;
+        }
+
+        .feature_icon {
+            width: 25px;
+        }
+
+        .owl-carousel .owl-item img {
+            object-fit: cover;
+        }
+
+        .media-cat-thumb {
+            max-width: 250px;
+            padding-bottom: 10px;
+        }
+
+        .card-cat-title {
+            text-transform: uppercase;
+        }
+
+
+        .awesome-iframe .widget-position-right.bubbleWithLabel .widgetLabel {
+            right: 109px;
+        }
+
+
+        .awesome-iframe .onlyBubble #button,
+        .awesome-iframe .bubbleWithLabel #button {
+            height: 94px;
+            width: 94px;
+            bottom: 0px;
+            right: 29px;
+        }
+
+        .footer-margin {
+            padding-left: 4em;
+           
+        }
+
+        .footer-margin-down {
+            padding-left: 3.5em;
+        }
+
+        @media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    .footer-margin {
+    margin-left: 2px;
+    }
+
+    body {
+                    margin: 0;
+                    padding: 0;
+                }
+}
+
+    </style>
+
+
+<style>
+         /* The Modal (background) */
+         .modal {
+         background-color: dark;
+         display: none;
+         position: fixed;
+         z-index: 1;
+         padding-top: 100px;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         overflow: auto;
+         background-color: rgb(0,0,0);
+         background-color: rgba(0,0,0,0.4);
+         }
+         /* Modal Content */
+         .modal-content {
+         background-color: #fefefe;
+         margin: auto;
+         padding: 20px;
+         border: 1px solid #888;
+         width: 80%;
+         }
+         /* The Close Button */
+         .close {
+         color: #aaaaaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+         }
+         .close:hover,
+         .close:focus {
+         color: #000;
+         text-decoration: none;
+         cursor: pointer;
+         }
+      </style>
+    
+<style>
+        body.modal-open .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1050;
+        }
+
+        .modal-overlay {
+            display: none;
+        }
+    </style>
+    <style>
+    
+    .modal-header .close {
+        font-size: 1rem;
+        color: red; 
+        margin: -1rem -1rem -1rem auto;
+    }
+</style>
+
+<style>
+    /* Make the logo image responsive */
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Style the modal header */
+    .modal-header {
+        background-color: #007bff;
+        border-radius: 10px 10px 0 0;
+    }
+
+    /* Style the close button */
+    .close {
+        font-size: 24px;
+        color: #fff;
+        background-color: red;
+        padding: 5px;
+        border-radius: 50%;
+    }
+    .inputBox {
+        margin-left: 10px;
+        position: inherit;
+    }
+
+    .modal {
+    z-index: 1050;
+    position: fixed;
+}
+</style>
+<style>
+    .square {
+        border-radius: 0;
+    }
+</style>
+<style>
+
+    .sectionone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    min-width: 350px;
+    height: 80vh;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 24px 0px;
+    }
+
+
+    .modatitle {
+    font-size: 20px;
+    font-weight: bold;
+    } */
+
+    .modaTit {
+    color: #a3a3a3;
+    font-size: 14px;
+    width: 200px;
+    margin-top: 4px;
+    }
+    .resend {
+    font-size: 12px;
+    }
+    
+
+
+    .otp-input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.otp-input-container input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-bottom: 0.5px solid #9c9599;
+  margin: 0 5px;
+  outline: none;
+}
+
+/* Optional: Style for focused input */
+.otp-input-container input:focus {
+  border-bottom: 1px solid #FF6289; 
+}
+
+
+
+input {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: none;
+    border-bottom: 0.5px solid #FF6289;
+    margin: 0 10px;
+    }
+
+    input:focus {
+    border-bottom: 0.5px solid #FF6289;
+    outline: none;
+    }
+
+@media (max-width: 767px) {
+    input {
+        margin: 0 0 8px 0;
+    }
+    .footer-margin {
+    padding-left: 0em;
+}
+
+.backArrow {
+    display: none;
+}
+.quiklinks {
+    /* padding-right: 10px; 
+    padding-left: 10px;  */
+    /* padding-bottom: -10px;
+    padding-top: -10px; */
+    margin-bottom: -10px;
+    margin-top: -10px;
+     
+}
+.footer-margin-down {
+    padding-left: 0em;
+}
+
+.socialls {
+    padding-bottom: 10px ;
+}
+}
+
+.waylf{
+    padding-left: 0px;
+}
+
+ 
+ 
+    .newbtn {
+    width: 60%;
+    letter-spacing: 2px;
+    margin-top: 24px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ed7a99;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+
+.transss{
+    transition: all 0.3s ease-out 0s;
+}
+
+@media (max-width: 767px) {
+    .newbtn {
+        padding: 2px 3px;
+    }
+    
+}
+    </style>
+    <style>
+        /* @media (max-width: 767px) {
+    .footer-widget-social {
+        display: none;
+    }
+} */
+@media (max-width: 767px) {
+    .footer-useful-link {
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .gybpart{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .footer-margin {
+        flex-direction: column;
+    }
+}
+
+.norad{
+    border-radius: 0;
+    border-bottom: 0.5px #888;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html, body, .container-fluid {
+    width: 100%;
+}
+.searchfield{
+    margin: 0;
+    
+}
+.searchfield:focus{
+    border-color: #FF6289;
+}
+@media (max-width: 767px) {
+    input {
+        margin: 0 0 8px 0;
+    }
+    html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 767px) {
+    /* .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    } */
+    .footer-logo img {
+    width: 75%;
+}
+.footer-widget-social {
+    text-align: left;
+}
+}
+    </style>
+    <style>
+    .sidebar {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 120vh;
+  padding-right: 10px; 
+}
+
+.search-3-box {
+    z-index: 999; 
+    
+}
+.searching{
+    width: 302px;
+}
+
+    </style>
+    <!-- header -->
+      <style>
+        .search-3 {
+            position: relative;
+        }
+
+        .search-box {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        .search-btn {
+            cursor: pointer;
+        }
+
+
+        .searches {
+    position: absolute;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    pointer-events: auto; 
+    z-index: 999; 
+}
+.sidebar{
+    width:20%;
+}
+
+@media (max-width: 767px) {
+    .sidebar{
+        width:100%;
+    }
+}
+    </style>
+
+    <!-- price range -->
+    <style>
+        .price-range-containera {
+            width: 90%;
+            margin: 10px auto;
+            /* text-align: center; */
+           
+        }
+
+        #custom-slidera {
+            width: 90%;
+            
+        }
+        .ttt{
+          color: #F0647F !important;
+        
+        }
+        #custom-slidera:hover{
+          cursor: pointer;
+           background-color: #F0647F !important;
+        }
+        
+        #custom-slidera::-ms-track {
+    background-color: #F0647F;
+}
+#custom-slidera::-ms-track {
+    background-color: #F0647F;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .minified {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+
+.pb-80 {
+    padding-bottom: 10px !important;
+}
+.mt-40 {
+    margin-top: 25px !important;
+}
+
+.mb-50 {
+    margin-bottom: 5px !important;
+}
+
+.price-range-containera{
+    padding-bottom: 0px;
+}
+
+.sidebar {
+    min-height: 0vh;
+}
+}
+   
+.arrowChange i {
+    float: right;
+    padding-right: 10px;
+}
+    </style>
+
+    <style>
+        @media (max-width: 767px) {
+    .mhide{
+       display: none;
+    }
+}
+</style>
+<style>
+#more {display: none;}
+
+.readextra{
+    font-weight: bold;
+}
+
+.desktopView{
+display: block;
+}
+.mobileView{
+    display: none;
+}
+@media (max-width: 767px) {
+    .desktopView{
+display: none;
+}
+.mobileView{
+    display: block;
+}
+.neree{
+    padding-left: 0px !important;   
+}
+.vendors1000pic {
+    max-height: 320px;
+    padding-top: 0px;
+    margin-top: -100px;
+}
+
+.input-icons i {
+   
+    padding-left: 5px;
+   
+}
+
+}
+</style>
+<style>
+
+@media (max-width: 767px) {
+    .mega-menu .menu-logo > li > a {
+    float: right;
+    }
+   
+}
+</style>
+<style>
+    .star-rating {
+        display: inline-block;
+        font-size: 0;
+        direction: rtl;
+    }
+    .star-rating input[type="radio"] {
+        display: none;
+    }
+    .star-rating label {
+        font-size: 30px;
+        color: #ccc;
+        cursor: pointer;
+        margin-left: 5px; 
+    }
+    .star-rating label:before {
+        content: "\2605";
+    }
+    .star-rating input[type="radio"]:checked ~ label {
+        color: #FFD700; 
+    }
+    .star-rating input[type="radio"]:checked ~ label:before,
+    .star-rating input[type="radio"]:hover ~ label:before {
+        color: #FFD700; 
+    }
+    .ratingtext{
+        padding-left: 20px;
+    }
+</style>
+<style>
+    @media (max-width: 767px) {
+        .filterButton{
+        margin-left: 80px !important;
+    }
+   
+}
+    .filterButtontoggle{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 50px !important;
+        /* margin-left: 50px !important; */
+    }
+    .filterButton{
+        /* display: block;   */
+        /* margin: 0 auto; */
+        margin-top: 10px;
+        border-radius: 50px !important;
+        margin-left: 50px !important;
+    }
+    /* .applybutton{
+         margin-left: 50px !important;
+    } */
+    .locationInput{
+        border-radius: 50px !important;
+    }
+
+    .starinput{
+        margin-left: 20px !important;
+    }
+    .filterSection{
+        margin-top: 10px !important;
+        margin-bottom: 2px !important;
+        text-align: center;
+    }
+
+    #filterForm {
+    display: none;
+    /* transition: display 0.5s ease; */
+   
+    transition: all 0.3s ease-out 0s;
+
+}
+#resetFilters {
+   
+    transition: transform 0.3s ease;
+}
+
+#resetFilters:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 767px) {
+    .neree .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-top: 5px; 
+        padding-bottom: 5px;
+        padding-right: 5px;
+        /* padding-left: 5px; */
+    }
+    .media-cat-thumb {
+        width: 100%;
+        height: auto; 
+    }
+}
+
+
+.loginprt{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+</style>
+    <title>ShaadiWire - Your Gateway to India's Finest Wedding Vendors</title>
+</head>
+
+<body>
+    <header id="header" class="header-6">
+    <div id="top_line">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 hidden-xs">
+                    <a href="tel:8860710078" id="phone_top">+91 8860710078</a>
+                    <span id="opening">
+                        Mon - Sat
+                        8.00/18.00</span>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <ul id="top_links">
+                        <li><a href="https://shaadiwire.in/contact-us" id="wishlist_link">Contact Us</a>
+                        </li>
+                        <li><a href="https://shaadiwire.in/vendor/login">Vendor Login</a>
+                        </li>
+                        <li><a href="https://shaadiwire.in/vendor/register">Register As Vendor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container-->
+    </div>
+    <div class="menu">
+        <!-- menu start -->
+        <nav id="menu-1" class="mega-menu">
+            <!-- menu list items container -->
+            <section class="menu-list-items">
+                <div class="container-fluid">
+                    <div class="row ">
+                        
+                        <div class="col-lg-2 col-md-12">
+                            <!-- menu logo -->
+                            <ul class="menu-logo">
+                                <li>
+                                    <a href="https://shaadiwire.in"><img id="logo_dark_img"
+                                            src="https://shaadiwire.in/frontend/assets/images/shaadiwire_logo.png"
+                                            alt="logo" class="mainlogo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+
+                            <!-- menu links -->
+                            <ul class="menu-links">
+                                <!-- active class -->
+
+                                                                    <li><a href="#">
+                                            Select City
+                                
+
+                                <i class="fa fa-angle-down fa-indicator"></i>
+                                </a>
+                                <div class="drop-down grid-col-5">
+                                    <!--grid row-->
+                                    <div class="grid-row">
+                                        <!--grid column 3-->
+                                        <div class="grid-col-4">
+                                            <h4 class="title"><strong>Top Cities</strong></h4>
+                                            <ul>
+                                                <li><a href="https://shaadiwire.in/city/all">All Cities</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/mumbai">Mumbai</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/bengaluru">Bengaluru</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/hyderabad">Hyderabad
+                                                    </a></li>
+                                                <li><a href="https://shaadiwire.in/city/chennai">Chennai </a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/jaipur">Jaipur</a>
+                                                </li>
+                                            </ul>
+                                            <h4 class="title"><strong>Delhi NCR</strong></h4>
+                                            <ul>
+                                                <li><a href="https://shaadiwire.in/city/delhi">Delhi</a></li>
+                                                <li><a href="https://shaadiwire.in/city/noida">Noida </a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/faridabad">Faridabad
+                                                    </a></li>
+                                                <li><a href="https://shaadiwire.in/city/gurugram">Gurugram</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid-col-4">
+                                            <h4 class="title"><strong>Popular</strong></h4>
+                                            <ul>
+                                                <li><a href="https://shaadiwire.in/city/delhi">Delhi</a></li>
+                                                <li><a href="https://shaadiwire.in/city/pune">Pune</a></li>
+                                                <li><a href="https://shaadiwire.in/city/lucknow">Lucknow</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/goa">Goa</a></li>
+                                                <li><a href="https://shaadiwire.in/city/udaipur">Udaipur</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://shaadiwire.in/city/chandigarh">Chandigarh</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/ahmedabad">Ahmedabad</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/indore">Indore</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/agra">Agra</a></li>
+                                                <li><a href="https://shaadiwire.in/city/kanpur">Kanpur</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/bhopal">Bhopal</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid-col-4">
+                                            <h4 class="title"><strong>Other</strong></h4>
+                                            <ul>
+                                                <li><a href="https://shaadiwire.in/city/nagpur">Nagpur</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/dehradun">Dehradun</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/thane">Thane</a></li>
+                                                <li><a href="https://shaadiwire.in/city/surat">Surat</a></li>
+                                                <li><a href="https://shaadiwire.in/city/vadodara">Vadodara</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://shaadiwire.in/city/visakhapatnam">Visakhapatnam</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://shaadiwire.in/city/bhubaneswar">Bhubaneswar</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/raipur">Raipur</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://shaadiwire.in/city/coimbatore">Coimbatore</a>
+                                                </li>
+                                                <li><a href="https://shaadiwire.in/city/jalandhar">Jalandhar</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                </li>
+                                <li><a href="javascript:void(0)"> Venue <i
+                                            class="fa fa-angle-down fa-indicator"></i></a>
+                                    <!-- drop down multilevel  -->
+                                    <ul class="drop-down-multilevel">
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/banquent-halls">Banquent Halls</a>
+                                            </li>
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/wedding-lawns-and-farmhouses">Wedding Lawns and Farmhouses</a>
+                                            </li>
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/resorts">Resorts</a>
+                                            </li>
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/small-function-halls">Small Function Halls</a>
+                                            </li>
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/destination-wedding">Destination Wedding</a>
+                                            </li>
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/marriage-gardens">Marriage Gardens</a>
+                                            </li>
+                                                                                    <li><a
+                                                    href="https://shaadiwire.in/vendors/venue/4-stars-5-stars-and-above">4 stars 5 stars and Above</a>
+                                            </li>
+                                                                                <li>
+                                            <a href="https://shaadiwire.in/vendors/venue">View
+                                                All</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="javascript:void(0)">Vendors <i
+                                            class="fa fa-angle-down fa-indicator"></i></a>
+                                    <!-- drop down full width -->
+                                    <div class="drop-down menu-bg grid-col-12">
+                                        <!--grid row-->
+                                        <div class="grid-row">
+                                            <!--grid column 3-->
+                                            <div class="grid-col-3">
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/photography">
+                                                    <h3 class="title"><strong>PHOTOGRAPHERS </strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/photography/photographer">Photographer</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/photography/pre-wedding-shoot">Pre-wedding shoot</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/photography/cinema-and-video">Cinema and Video</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/bridal-wear">
+                                                    <h3 class="title"><strong>BRIDAL WEAR</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/bridal-wear/bridal-lehengas">Bridal Lehengas</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/bridal-wear/trousseau-saree">Trousseau Saree</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/bridal-wear/cocktail-dresses">Cocktail Dresses</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/bridal-wear/bridal-lehengas-on-rent">Bridal Lehengas on Rent</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/bridal-wear/assistance-on-virtual-shopping">Assistance on Virtual Shopping</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/groom-wear">
+                                                    <h3 class="title"><strong>GROOM WEAR</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/groom-wear/sherwani">Sherwani</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/groom-wear/sherwani-on-rent">Sherwani on Rent</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/groom-wear/wedding-suits-and-tuxes">Wedding Suits and Tuxes</a>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                            <!--grid column 3-->
+                                            <div class="grid-col-3">
+                                                <a href="https://shaadiwire.in/vendors/invites-and-honors">
+                                                    <h3 class="title"><strong>INVITES & HONORS</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/invites-and-honors/invitations">Invitations</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/invites-and-honors/trousseau-packers">Trousseau Packers</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/invites-and-honors/honors">Honors</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/invites-and-honors/invitation-gifts">Invitation Gifts</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/invites-and-honors/wedding-gifts-for-brides-and-grooms">Wedding Gifts for Brides and Grooms</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/invites-and-honors/mehendi-honors">Mehendi Honors</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a href="https://shaadiwire.in/vendors/food">
+                                                    <h3 class="title"><strong>FOOD</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/food/catering-services">Catering Services</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/food/cake">Cake</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/food/bartenders">Bartenders</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/food/home-catering">Home Catering</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/food/chaat-and-food-stalls">Chaat and Food Stalls</a>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                            <!--grid column 3-->
+                                            <div class="grid-col-3">
+                                                <a href="https://shaadiwire.in/vendors/music-and-dance">
+                                                    <h3 class="title"><strong>MUSIC, & DANCE</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/music-and-dance/djs">DJs</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/music-and-dance/sangeet-choreographer">Sangeet Choreographer</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/music-and-dance/wedding-entertainment">Wedding Entertainment</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/jewellery-and-accessories">
+                                                    <h3 class="title"><strong>JEWELLERY & ACCESSORIES</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/jewellery-and-accessories/jewellery">Jewellery</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/jewellery-and-accessories/flower-jewellery">Flower Jewellery</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/jewellery-and-accessories/bridal-jewellery-on-rent">Bridal Jewellery on Rent</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/jewellery-and-accessories/accessories">Accessories</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/jewellery-and-accessories/artificial">Artificial</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/mehendi">
+                                                    <h3 class="title"><strong>MEHENDI</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/mehendi/mehendi-artist">Mehendi Artist</a>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                            <!--grid column 3-->
+                                            <div class="grid-col-3">
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/planning-and-decor">
+                                                    <h3 class="title"><strong>PLANNING & DECOR</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/planning-and-decor/wedding-planners">Wedding Planners</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/planning-and-decor/decorators">Decorators</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/planning-and-decor/small-function-decor">Small Function Decor</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a
+                                                    href="https://shaadiwire.in/vendors/fun-and-entertainment">
+                                                    <h3 class="title"><strong>FUN & ENTERTAINMENT</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/fun-and-entertainment/anchors">Anchors</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/fun-and-entertainment/magicians">Magicians</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/fun-and-entertainment/celebrity-on-demand">Celebrity on Demand</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/fun-and-entertainment/singers">Singers</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a href="https://shaadiwire.in/vendors/pandit">
+                                                    <h3 class="title"><strong>PANDIT</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/pandit/wedding-pandits">Wedding Pandits</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                <a href="https://shaadiwire.in/vendors/makeup">
+                                                    <h3 class="title"><strong>MAKEUP</strong></h3>
+                                                </a>
+                                                <ul>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/makeup/bridal-makeup">Bridal Makeup</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/makeup/family-makeup">Family Makeup</a>
+                                                        </li>
+                                                                                                            <li><a
+                                                                href="https://shaadiwire.in/vendors/makeup/party-makeup">Party Makeup</a>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                <li><a href="https://shaadiwire.in/contact-us">Contact </a></li>
+                                <li><a href="https://shaadiwire.in/about">About Us </a></li>
+                                <li class="d-lg-none active"><a href="javascript:void(0)"> Get Started <i
+                                            class="fa fa-angle-down fa-indicator"></i></a>
+                                    <!-- drop down multilevel  -->
+                                    <ul class="drop-down-multilevel">
+                                                                                    <li>
+                                                <a href="https://shaadiwire.in/register">Register Now</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://shaadiwire.in/login">User Sign-In</a>
+                                            </li>
+                                                                                                                        <li>
+
+                                            <h4 class="title h4 mt-4"><strong>ARE YOU A VENDOR?</strong></h4>
+
+                                        </li>
+                                        <li>
+                                            <a href="https://shaadiwire.in/vendor/register">Register As Vendor</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://shaadiwire.in/vendor/login"> Vendor Sign-In</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <div class="mega-menu menu-links menu-links-align-right col-lg-2 col-md-2">
+                                                            <li>
+                                                                        <a class="login" href="#"><i class="fa fa-user"></i> Sign In </a>
+                                                                        <div class="login-1 login-open text-left">
+                                        <form class="form-signin mb-3" method="POST"
+                                            action="https://shaadiwire.in/login">
+                                            <input type="hidden" name="_token" value="3OUWHbE3E1XxhUhphvGKOhDLCvFGBZqOo71vN3eF">
+                                                                                            <p class="text-center"><b>New To ShaadiWire:</b></p>
+                                                                                        <p class="text-center"> <a href="https://shaadiwire.in/register"
+                                                    class="button rounded-pill">
+                                                    <span>Register</span></a></p>
+                                            <p class="text-center"><b> Existing User:</b></p>
+                                            <div class="form-group text-center loginprt">
+                                                
+                                                <input class="form-control text-center loginprt" name="phone"
+                                                    placeholder="Email / Phone" />
+                                            </div>
+                                            <div class="form-group text-center loginprt">
+                                              
+                                                <input type="password" class="form-control text-center loginprt" name="password"
+                                                    placeholder="Password" />
+                                            </div>
+                                           
+                                            <p class="text-center">
+                                                <button type="submit" class="button rounded-pill pl-20 pr-20 pt-2 pb-2">
+                                                    Login
+                                                </button>&ensp;&ensp;&ensp;
+                                                <a href="https://shaadiwire.in/login?showForgot=true">Forgot Password?</a>
+                                                
+
+                                            </p>
+                                            <div class="remember-checkbox">
+                                                <input type="checkbox" name="one" id="authCheck" />
+                                               <label class="remember" for="one">Remember me</label>
+                                                <!-- <a href="https://shaadiwire.in/login?showForgot=true">Forgot Password</a> -->
+                                            </div>
+                                            
+                                            
+                                            <!-- <a href="#">Forgot password ?</a>   -->
+                                        </form>
+                                        <div class="login-2 login-open text-center py-2">
+                                                                                            <p class="text-white mt-3"><b>Are You A Vendor?</b></p>
+                                                <a href="https://shaadiwire.in/vendor/register"
+                                                    class="button button-white rounded-pill px-4 shadow">
+                                                    Register
+                                                </a>
+                                                <a href="https://shaadiwire.in/vendor/login"
+                                                    class="button button-white rounded-pill px-4 shadow">
+                                                    Login
+                                                </a>
+                                                                                    </div>
+
+
+                                    </div>
+
+                                </li>
+                              
+
+                            
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <!-- menu end -->
+    </div>
+</header>
+
+
+        <div class="hero overlaybg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="intro-wrap feat-inner3">
+                        <div class="hero-text">
+                            <h5 class="text-center text-black"><strong>Planning a wedding can be easy with
+                                    ShaadiWire!</strong></h5><br>
+                            <h1><strong>India's Most <span style="color:#ff577f">Trusted</span></strong></h1>
+                            <h1><strong>Wedding Marketplace</strong></h1>
+                        </div>
+                        <div class="main-search form">
+                            <form method="GET" action="https://shaadiwire.in/search/search-listing" enctype="multipart/form-data">
+                                <div class="slider-form rounded">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-md-5 input-icons my-2">
+                                            <i class="icon-search"></i>
+                                            <input type="text" class="form-control typeahead waylf" id="autocompletesubcat"
+                                                name="Category" placeholder="What are you looking for?" autocomplete="off"
+                                                required />
+                                        </div>
+                                        <div class="col-12 col-md-5 left-border input-icons my-2">
+                                            <i class="fa fa-map-marker"></i>
+                                            <input type="text" id="autocompleteLocation" name="location"
+                                                placeholder="Location" class="form-control typeahead waylf" autocomplete="off" />
+                                        </div>
+
+                                        <div class="col-12 col-md-2 text-center my-2">
+                                            <button type="submit" class="btn btn-primary">Search Now</button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-area">
+
+        <!-- Header Form -->
+        <div class="untree_co-section">
+            <div class="container">
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h1 class="section-title2 text-center mb-3 pt-3">Discover Your Perfect Vendor</h1>
+                        <p>Welcome to ShaadiWire, where your dream wedding becomes a vibrant reality! With our intuitive
+                            search engine, finding your perfect vendor has never been easier.
+                            Prepare to embark on an enchanting journey as you explore a kaleidoscope of possibilities to
+                            make your special day truly unforgettable.
+                            Find, Book, and Celebrate in Style!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="https://shaadiwire.in/vendors/venue">
+                            <button class="btnCatHome shadow"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/icon/Icon-01.png" class="img-icon" />
+                                Venue</button>
+                        </a>
+                        <a href="https://shaadiwire.in/vendors/photography">
+                            <button class="btnCatHome shadow"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/icon/Icon-02.png" class="img-icon" />
+                                Photography</button>
+                        </a>
+                        <a href="https://shaadiwire.in/vendors/food">
+                            <button class="btnCatHome shadow"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/icon/Icon-03.png" class="img-icon" />
+                                Food & Catering</button>
+                        </a>
+                        
+                        <a href="https://shaadiwire.in/vendors/fun-and-entertainment">
+                            <button class="btnCatHome shadow"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/icon/Icon-05.png" class="img-icon" />
+                                Fun & Entertainment</button>
+                        </a>
+                        <a href="https://shaadiwire.in/vendors/planning-and-decor">
+                            <button class="btnCatHome shadow"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/icon/Icon-06.png" class="img-icon" />
+                                Planning & Decor</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        
+
+        <div class="container">
+            <div class="row mt-30 mb-30">
+                <div class="col-lg-12 col-md-12">
+                    <h3 class="section-title mb-5">Most Popular
+                        <span style="text-transform:capitalize;">
+                                                                                    <span>
+
+                    </h3>
+                    <div class="owl-carousel-10">
+
+
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/photographer/the-wedding-files">
+                                    <img src="upload/listing/featured/Q1DEBMXHU3CB/202305030553Q1DEBMXHU3CB315561629_686498499447647_8693464067712831910_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/photographer/the-wedding-files">
+                                        <p><b>The Wedding Files</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;New Delhi,
+                                        Delhi NCR </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/photographer/rohan-shinde-photography-%28rsp%29">
+                                    <img src="upload/listing/featured/CYH4FVKUBJIM/202305032057CYH4FVKUBJIM337557500_543877894399451_375352859125715376_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/photographer/rohan-shinde-photography-%28rsp%29">
+                                        <p><b>Rohan Shinde Photography (RSP)</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;Mumbai,
+                                        Maharashtra </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/photographer/cup-of-stories">
+                                    <img src="upload/listing/featured/E0UUVNCAGGYF/202305032125E0UUVNCAGGYF315902872_551103060359630_1062916842638603258_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/photographer/cup-of-stories">
+                                        <p><b>Cup of Stories</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;New Delhi,
+                                        Delhi NCR </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/photographer/imageart-photography">
+                                    <img src="upload/listing/featured/WLXNMMBTZWQF/202305032144WLXNMMBTZWQF329301049_428034809497489_8776483679943535870_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/photographer/imageart-photography">
+                                        <p><b>ImageArt Photography</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;Visakhapatnam,
+                                        Andhra Pradesh </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/cinema-and-video/sagar-shetty-films">
+                                    <img src="upload/listing/featured/HW6DUZEM0WPH/202305041550HW6DUZEM0WPH290728471_433236118660279_6301438848076814729_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/cinema-and-video/sagar-shetty-films">
+                                        <p><b>Sagar Shetty Films</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;Thane,
+                                        Maharashtra </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/cinema-and-video/rachit-photography">
+                                    <img src="upload/listing/featured/2OQWE1QDRDCR/2023050416052OQWE1QDRDCR337428290_3054595854849195_2184800454272347019_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/cinema-and-video/rachit-photography">
+                                        <p><b>Rachit Photography</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;Jaipur,
+                                        Rajasthan </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/photographer/mind-twister-films">
+                                    <img src="upload/listing/featured/BHXU6W5JAMJF/202305041621BHXU6W5JAMJFSBA00022.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/photographer/mind-twister-films">
+                                        <p><b>Mind Twister Films</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;New Delhi,
+                                        Delhi NCR </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/photography/photographer/the-wedding-reels">
+                                    <img src="upload/listing/featured/F0WDEL0U8KMN/202305041637F0WDEL0U8KMN340025703_895548221739025_8338876092296286530_n.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/photography/photographer/the-wedding-reels">
+                                        <p><b>The Wedding Reels</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;Mumbai,
+                                        Maharashtra </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/venue/resorts/stellar-resorts">
+                                    <img src="upload/listing/featured/YVPRATPIZTAS/202305042124YVPRATPIZTASIMG-20211111-WA0023.jpg"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/venue/resorts/stellar-resorts">
+                                        <p><b>Stellar Resorts</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;New Delhi,
+                                        Delhi NCR </p>
+                                </div>
+                            </div>
+                                                    <div class="item mx-2">
+                                <a
+                                    href="https://shaadiwire.in/vendors/mehendi/mehendi-artist/keshav-mehandi-arts">
+                                    <img src="upload/listing/featured/FYZEC0QD14NY/202307270857FYZEC0QD14NY346140004_188964546966377_3365816331575479053_n.heic"
+                                        class="rounded-20 my-2">
+                                </a>
+                                <div>
+                                    <a
+                                        href="https://shaadiwire.in/vendors/mehendi/mehendi-artist/keshav-mehandi-arts">
+                                        <p><b>Keshav Mehandi Arts</b></p>
+                                    </a>
+                                    <p class="venue"><i class="fa fa-star" style="color:orange"></i> 5.0 (48)
+                                        &nbsp;&nbsp;&nbsp;<i class="fa fa-credit-card"></i> $$ &nbsp;&nbsp;&nbsp;<i
+                                            class="fa fa-location-pin"></i>&nbsp;&nbsp;&nbsp;New Delhi,
+                                        Delhi NCR </p>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--=================================
+                                                                             owl carousel -->
+
+
+        <div class="untree_co-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-7">
+                        <h3 class="section-title"> Popular Searches
+                            <span style="text-transform:capitalize;">
+                                                                    In India
+                                                                <span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="media-1">
+                            <a href="https://shaadiwire.in/vendors/bridal-wear" class="d-block mb-3"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/bride-wear.jpg" alt="Image"
+                                    class="img-fluid" /></a>
+                            <div class="align-items-center">
+                                <div class="text-center">
+                                    <h3 class="section-title">Bridal Wear</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="media-1">
+                            <div class="align-items-center">
+                                <div class="text-center">
+                                    <h3 class="section-title">Bridal Makeup</h3>
+                                </div>
+                            </div>
+                            <a href="https://shaadiwire.in/vendors/makeup" class="d-block mb-3"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/bride-makeup.jpg" alt="Image"
+                                    class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="media-1">
+                            <a href="https://shaadiwire.in/vendors/photography" class="d-block mb-3"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/photographer.jpg" alt="Image"
+                                    class="img-fluid"></a>
+                            <div class="align-items-center">
+                                <div class="text-center">
+                                    <h3 class="section-title">Photographer</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="media-1">
+                            <div class="align-items-center">
+                                <div class="text-center">
+                                    <h3 class="section-title">Choreographer</h3>
+                                </div>
+                            </div>
+                            <a href="https://shaadiwire.in/vendors/music-and-dance" class="d-block mb-3"><img
+                                    src="https://shaadiwire.in/frontend/assets/images/coreography.jpg" alt="Image"
+                                    class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="untree_co-section">
+            <div class="container">
+                <div class="row mb-50">
+                    <div class="col-lg-5 text-center">
+                        <img src="https://shaadiwire.in/frontend/assets/images/couple_600.png" alt="couple"
+                            class="img-fluid rounded-20 vendors1000pic">
+                    </div>
+                    <div class="col-lg-7 pl-lg-7 ai-textArea">
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="align-middle">
+                                        <h2 class="section-title mb-4">1000+ Vendors Waiting To Serve You</h2>
+
+                                        <p class="desktopView">
+                                            At ShaadiWire, we have over 1000 passionate vendors waiting to bring your wedding vision to life. From the tiniest details to grand gestures, our diverse range of vendors caters to every style, preference, and budget. Unleash your imagination and let our vendors work their magic!
+                                            <br><br>
+                                            Discover your dream wedding effortlessly with ShaadiWire's AI-driven platform. Our intelligent system analyzes your preferences, presenting curated vendors who align perfectly with your vision, saving you time and effort. Your dream wedding awaits!
+                                               
+                                        </p>
+
+
+                                        <p class="mobileView">
+                                            At ShaadiWire, we have over 1000 passionate vendors waiting to bring your wedding vision to life. From the tiniest details to grand <span id="dots">...<a onclick="myFunction()" class="readextra" id="myBtn">Read more</a></span>
+                                            <span id="more" style="display: none;"> gestures, our diverse range of vendors caters to every style, preference, and budget. Unleash your imagination and let our vendors work their magic!
+                                            <br><br>
+                                            Discover your dream wedding effortlessly with ShaadiWire's AI-driven platform. Our intelligent system analyzes your preferences, presenting curated vendors who align perfectly with your vision, saving you time and effort. Your dream wedding awaits!
+                                            <a onclick="myFunction()" class="readextra" id="myBtn">Read less</a>
+                                        </span>
+                                        </p>
+
+                                        <div class="col-sm-12 col-md-3 col-lg-4 mt-20">
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                title="Coming Soon!">
+                                                <button type="submit" class="btn btn-primary" disabled>ShaadiWire AI
+                                                    Search</button>
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+
+        
+
+        
+
+
+        
+
+
+        <div class="untree_co-section">
+            
+
+            
+
+            <!-- <div class="container">
+                <div class="row ">
+                    <div class="col-md-3 pr-20 mhide">
+                        <img src="https://shaadiwire.in/frontend/assets/images/help-you.png" alt="Image"
+                            class="img-fluid media-thumb2">
+                    </div>
+                    <div class="col-md-9 pl-40">
+                        <div class="row mb-10 mt-20 pl-20">
+                            <h3 class="section-title">Amazing Gallery</h3>
+                        </div>
+
+                        <div class="row pl-20 neree">
+                            
+                            <div class="col-md-4 col-sm-6 col-xs-12 px-100">
+                                <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/outfits.png" alt="Outfits"
+                                    class="img-fluid media-cat-thumb">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 px-100">
+                                <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/bride-groom.png"
+                                    alt="Bride And Groom" class="img-fluid media-cat-thumb">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 px-100">
+                                <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/mehendi.png" alt="Mehendi"
+                                    class="img-fluid media-cat-thumb">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 px-40">
+                                <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/destination.png"
+                                    alt="Destination Weddings" class="img-fluid media-cat-thumb">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 px-40">
+                                <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/pre-wed.png"
+                                    alt="Pre-Wedding" class="img-fluid media-cat-thumb">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 px-40">
+                                <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/jewel.png" alt="Jewellery"
+                                    class="img-fluid media-cat-thumb">
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="container">
+    <div class="row">
+        <div class="col-md-3 pr-20 mhide">
+            <img src="https://shaadiwire.in/frontend/assets/images/help-you.png" alt="Image" class="img-fluid media-thumb2">
+        </div>
+        <div class="col-md-9">
+            <div class="row mb-10 mt-20 pl-20">
+                <h3 class="section-title">Amazing Gallery</h3>
+            </div>
+            <div class="row pl-20 neree">
+                <div class="col-md-4 col-sm-6 px-100">
+                    <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/outfits.png" alt="Outfits" class="img-fluid media-cat-thumb">
+                </div>
+                <div class="col-md-4 col-sm-6 px-100">
+                    <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/bride-groom.png" alt="Bride And Groom" class="img-fluid media-cat-thumb">
+                </div>
+                <div class="col-md-4 col-sm-6 px-100">
+                    <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/mehendi.png" alt="Mehendi" class="img-fluid media-cat-thumb">
+                </div>
+                <div class="col-md-4 col-sm-6 px-100">
+                    <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/destination.png" alt="Destination Weddings" class="img-fluid media-cat-thumb">
+                </div>
+                <div class="col-md-4 col-sm-6 px-100">
+                    <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/pre-wed.png" alt="Pre-Wedding" class="img-fluid media-cat-thumb">
+                </div>
+                <div class="col-md-4 col-sm-6 px-100">
+                    <img src="https://shaadiwire.in/frontend/assets/images/gallary-img/jewel.png" alt="Jewellery" class="img-fluid media-cat-thumb">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            
+            <div class="untree_co-section">
+                <div class="container mb-50">
+                    <div class="row">
+                        <div class="col-lg-7 mb-20">
+                            <h3 class="section-title">Latest Blogs</h3>
+                        </div>
+                        <div class="col text-right m-10">
+                            <a href="https://shaadiwire.in/blog">Read Our Blogs <span class="pl-10"><i
+                                        class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12 item px-20">
+                            <a href="https://shaadiwire.in/blog/alanna-pandey-and-ivor-mccrays-enchanted-forest-wedding-a-guide-to-planning-your-own-magical-day">
+                                <img src="https://shaadiwire.in/upload/blog_images/featured/ARKZLCFKNCNV/1774971279527055.jpg" alt="Alanna Pandey and Ivor McCray&#039;s Enchanted Forest Wedding: A Guide to Planning Your Own Magical Day"
+                                    class="img-fluid rounded-20">
+                            </a>
+                            <div class="row pl-10 pr-10">
+                                <div class="row mt-10 card-cat-title"><a href="#">WEDDINGS</a></div>
+                                <div class="row">
+                                    <a href="#">
+                                    <!-- <h5 class="section-title mt-10"><a href="https://shaadiwire.in/blog/alanna-pandey-and-ivor-mccrays-enchanted-forest-wedding-a-guide-to-planning-your-own-magical-day">Alanna Pandey And Ivor Mccray&#039;s Enchanted Forest Wedding: A Guide To Planning Your Own Magical Day</a></h5> -->
+                                        <h5 class="section-title mt-10"><a href="https://shaadiwire.in/blog/alanna-pandey-and-ivor-mccrays-enchanted-forest-wedding-a-guide-to-planning-your-own-magical-day">Alanna Pandey and Ivor McCray's Enchanted Forest Wedding: A Guide..</a></h5>
+
+                                    </a>
+                                </div>
+
+                                <div class="row">
+                                    <p>&nbsp;
+The bride, Alanna Panday, is the cousin of Bollywood actress Ananya Panday and the.... </p>
+                                </div>
+
+                                <div class="row mb-10">
+                                    <div class="col venue text-left"><i class="fa fa-calendar-o"></i>22 Aug, 2023</div>
+
+                                    <div class="col venue text-right"><i class="fa fa-comment-o"></i>
+                                        <a href="#"> 0 Comments</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                                                <div class="col-md-4 col-sm-6 col-xs-12 item px-20">
+                            <a href="https://shaadiwire.in/blog/indian-bride-to-be-bridal-jewelry-inspiration-a-guide-to-the-most-beautiful-and-meaningful-pieces">
+                                <img src="https://shaadiwire.in/upload/blog_images/featured/WPBAURJQBYLY/1774695759712160.jpg" alt="Indian Bride-to-Be Bridal Jewelry Inspiration: A Guide to the Most Beautiful and Meaningful Pieces"
+                                    class="img-fluid rounded-20">
+                            </a>
+                            <div class="row pl-10 pr-10">
+                                <div class="row mt-10 card-cat-title"><a href="#">JEWELRY</a></div>
+                                <div class="row">
+                                    <a href="#">
+                                    <!-- <h5 class="section-title mt-10"><a href="https://shaadiwire.in/blog/indian-bride-to-be-bridal-jewelry-inspiration-a-guide-to-the-most-beautiful-and-meaningful-pieces">Indian Bride-To-Be Bridal Jewelry Inspiration: A Guide To The Most Beautiful And Meaningful Pieces</a></h5> -->
+                                        <h5 class="section-title mt-10"><a href="https://shaadiwire.in/blog/indian-bride-to-be-bridal-jewelry-inspiration-a-guide-to-the-most-beautiful-and-meaningful-pieces">Indian Bride-to-Be Bridal Jewelry Inspiration: A Guide to the Most..</a></h5>
+
+                                    </a>
+                                </div>
+
+                                <div class="row">
+                                    <p>To the soul to start a new chapter as an Indian bride your wedding day.... </p>
+                                </div>
+
+                                <div class="row mb-10">
+                                    <div class="col venue text-left"><i class="fa fa-calendar-o"></i>19 Aug, 2023</div>
+
+                                    <div class="col venue text-right"><i class="fa fa-comment-o"></i>
+                                        <a href="#"> 0 Comments</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                                                <div class="col-md-4 col-sm-6 col-xs-12 item px-20">
+                            <a href="https://shaadiwire.in/blog/varun-dhawan-and-natasha-dalals-wedding-dcor-a-visual-feast-for-the-senses-in-2023">
+                                <img src="https://shaadiwire.in/upload/blog_images/featured/WYWVFA5N8EMA/1774150797415544.jpg" alt="Varun Dhawan and Natasha Dalal&#039;s Wedding Décor: A Visual Feast for the Senses in 2023"
+                                    class="img-fluid rounded-20">
+                            </a>
+                            <div class="row pl-10 pr-10">
+                                <div class="row mt-10 card-cat-title"><a href="#">DECOR</a></div>
+                                <div class="row">
+                                    <a href="#">
+                                    <!-- <h5 class="section-title mt-10"><a href="https://shaadiwire.in/blog/varun-dhawan-and-natasha-dalals-wedding-dcor-a-visual-feast-for-the-senses-in-2023">Varun Dhawan And Natasha Dalal&#039;s Wedding Décor: A Visual Feast For The Senses In 2023</a></h5> -->
+                                        <h5 class="section-title mt-10"><a href="https://shaadiwire.in/blog/varun-dhawan-and-natasha-dalals-wedding-dcor-a-visual-feast-for-the-senses-in-2023">Varun Dhawan and Natasha Dalal's Wedding Décor: A Visual Feast..</a></h5>
+
+                                    </a>
+                                </div>
+
+                                <div class="row">
+                                    <p>The Enchanting Wedding D&eacute;cor of Varun Dhawan &amp; Natasha Dalal
+The wedding of&nbsp;Varun Dhawan &amp;.... </p>
+                                </div>
+
+                                <div class="row mb-10">
+                                    <div class="col venue text-left"><i class="fa fa-calendar-o"></i>13 Aug, 2023</div>
+
+                                    <div class="col venue text-right"><i class="fa fa-comment-o"></i>
+                                        <a href="#"> 0 Comments</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                                                
+                        
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!--=================================
+ footer -->
+ <footer class="footer-4 pt-40 myfooter">
+    <div class="container-fluid">
+        <div class="row footer-margin">
+            <div class="col-lg-3 col-md-3 col-sm-6 socialls">
+                <div class="footer-logo">
+                    <img id="logo-footer" class="mb-15" src="https://shaadiwire.in/frontend/assets/images/shaadiwire_white.png" alt="">
+                    <div class="footer-useful-link footer-hedding mb-20 footer-contact-details">
+                        <ul class="ml-2">
+                            <li><a href="mailto:info@shaadiwire.in"><i class="fa fa-envelope-o pr-10"></i>info@shaadiwire.in</a>
+                            </li>
+                            <li><a href="tel:+918860710078"><i class="fa fa-phone pr-15"></i>(+91) 8860710078</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget-social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/ShaadiWire" target="_blank"><i class=" mx-2 fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/shaadiwire/" target="_blank"><i class="mx-2 fa fa-instagram"></i> </a></li>
+                            <li><a href="https://twitter.com/shaadiwire" target="_blank"><i class="mx-2 fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/shaadiwire/" target="_blank"><i class="mx-2 fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 quiklinks">
+                <div class="footer-useful-link footer-hedding mb-20">
+                    <h4 class="text-white mb-2 mt-2 mbview d-none d-sm-block">Quick Links</h4>
+                    <h5 class="text-white mb-2 mt-2 d-block d-sm-none arrowChange" data-bs-toggle="collapse" data-bs-target="#quickLinksDropdown" aria-expanded="false" aria-controls="quickLinksDropdown" id="quickLinksHeading">
+                        Quick Links&ensp;<i class="fa-solid fa-caret-down"></i>
+                    </h5>
+                    <ul class="collapse d-sm-block list-unstyled" id="quickLinksDropdown">
+                        <li><a href="https://shaadiwire.in/vendors/venue">Venues</a></li>
+                        <li><a href="https://shaadiwire.in/vendors/photography">Photographers</a></li>
+                        <li><a href="https://shaadiwire.in/vendors/bridal-wear">Bridal Wear</a></li>
+                        <li><a href="https://shaadiwire.in/vendors/makeup">Makeup Artists</a></li>
+                        <li><a href="https://shaadiwire.in/contact-us">E-Invite</a></li>
+                    </ul>
+                </div>
+            </div>
+                        <!-- first collaps end -->
+            <div class="col-lg-2 col-md-1 col-sm-6 quiklinks">
+                <div class="footer-useful-link footer-hedding mb-20">
+                <h4 class="text-white mb-2 mt-2 mbview d-none d-sm-block">Exclusive</h4>
+                    <h5 class="text-white mb-2 mt-2 d-block d-sm-none arrowChange" data-bs-toggle="collapse" data-bs-target="#exclusiveDropdown" aria-expanded="false" aria-controls="exclusiveDropdown">Exclusive&ensp;<i class="fa-solid fa-caret-down "></i></h5>
+                    <ul class="collapse d-sm-block list-unstyled" id="exclusiveDropdown">
+                        <li><a href="https://shaadiwire.in/about">About Us</a></li>
+                        <li><a href="https://shaadiwire.in/contact-us">Wedding Assist</a></li>
+                        <li><a href="https://shaadiwire.in/vendor/dashboard">Wedding Submission</a></li>
+                        <li><a href="https://shaadiwire.in/login">Get Your Website</a></li>
+                        <li><a href="https://shaadiwire.in/about">Awards</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-1 col-sm-6 quiklinks">
+                <div class="footer-useful-link footer-hedding mb-20">
+                <h4 class="text-white mb-2 mt-2 mbview d-none d-sm-block">Profile</h4>
+                    <h5 class="text-white mb-2 mt-2 d-block d-sm-none arrowChange" data-bs-toggle="collapse" data-bs-target="#profileDropdown" aria-expanded="false" aria-controls="profileDropdown">Profile&ensp;<i class="fa-solid fa-caret-down "></i></h5>
+                    <ul class="collapse d-sm-block list-unstyled" id="profileDropdown">
+                        <li><a href="https://shaadiwire.in/login">My Account</a></li>
+                        <li><a href="https://shaadiwire.in/contact-us">Contact Us</a></li>
+                        <li><a href="https://shaadiwire.in/terms-and-conditions">Terms & Conditions</a></li>
+                        <li><a href="https://shaadiwire.in/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="https://shaadiwire.in/cancellation-refund-policy">Cancellation Policy</a></li>
+
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-1 col-sm-6 gybpart">
+                <div class="footer-useful-link footer-hedding mb-20">
+                <h4 class="text-white mb-10 mt-10 mbview d-none d-sm-block">Grow Your Business</h4>
+                    <h4 class="text-white mb-10 mt-10 ml-2 d-block d-sm-none" data-bs-toggle="collapse" data-bs-target="#gybDropdown" aria-expanded="false" aria-controls="gybDropdown">Grow Your Business</h4>
+                    <ul class="collapse d-sm-block list-unstyled" id="gybDropdown">
+                        
+                        <li><a href="https://shaadiwire.in/vendor/register" class="btn btn-primary mt-5 ml-2">Register As Vendor</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="footer-widget ">
+        <div class="container-fluid">
+            <div class="row footer-margin-down">
+                
+                    <p class="text-white mt-15"> &copy;Copyright <span id="copyright">
+                            <script>
+                                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+                            </script>
+                        </span> <a href="https://shaadiwire.in"> ShaadiWire</a> All Rights Reserved </p>
+                
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--=================================
+footer -->
+<!--=================================
+popup contact -->
+
+
+
+<!--=================================
+popup contact -->
+
+</div>
+
+<div id="back-to-top" class="backArrow"><a class="top arrow backArrow" href="#top"><i class="fa fa-long-arrow-up backArrow"></i></a></div>
+
+<!-- <script src="//code.tidio.co/mj7vszkz6gpnrikenc7pxqx7k9k4wyq7.js" async></script> -->
+<script src="//code.tidio.co/mj7vszkz6gpnrikenc7pxqx7k9k4wyq7.js" async></script>
+    <!--=================================
+ jquery -->
+
+    <!-- jquery  -->
+    <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/jquery.min.js"></script> 
+    <!-- <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/jquery-3.6.3.min.js"></script>  -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script> -->
+    <!-- bootstrap -->
+    <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/bootstrap.min.js"></script>
+    <!-- plugins-jquery -->
+    <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/plugins-jquery.js"></script>
+    <!-- mega menu -->
+    <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/mega-menu/mega_menu.js"></script>
+    <!-- socialstream -->
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/social/socialstream.jquery.js"></script>
+    <!-- isotope -->
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/functions.js"></script>
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/validate.js"></script>
+    <!-- popup -->
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/popup/jquery.magnific-popup.js"></script>
+    <!-- price range -->
+    <!-- <script type="text/javascript" src="frontend/assets/assets/js/range/range.js"></script> -->
+    <!-- <script src="https://shaadiwire.in/frontend/assets/assets/js/ranging.js"></script> -->
+    <!-- wow -->                                  
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/wow.js"></script>
+    <!-- appear -->
+    <script src="https://shaadiwire.in/frontend/assets/assets/js/jquery.appear.js"></script>
+    <!-- Style Customizer -->
+    <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/style-customizer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+    <!-- custom -->
+    <script type="text/javascript" src="https://shaadiwire.in/frontend/assets/assets/js/custom.js"></script>
+    <script src="https://shaadiwire.in/frontend/assets/js/daterangepicker.js"></script>
+    <script src="https://shaadiwire.in/frontend/assets/js/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+
+
+     
+
+
+    
+
+    
+
+
+    
+
+    <script type="text/javascript">
+        var jQuery_3_6_3 = $.noConflict(true);
+        var searchPath = "https://shaadiwire.in/autocomplete-search-query";
+        var searchPath1 = "https://shaadiwire.in/autocomplete-search-cat";
+
+        jQuery_3_6_3('#autocompletesubcat').typeahead(
+
+            {
+
+                source: function(query, process) {
+                    return $.get(searchPath1, {
+                            query: query
+                        },
+                        function(data) {
+                            return process(data);
+                        });
+                },
+
+                highlight: true,
+                minLength: 1,
+                name: 'categories',
+                autoSelect: true,
+                hint: true,
+                displayText: function(item) {
+                    return item.subcat_name;
+                },
+            });
+
+
+        jQuery_3_6_3('#autocompleteLocation').typeahead(
+
+            {
+
+                source: function(query, process) {
+                    return $.get(searchPath, {
+                            query: query
+                        },
+                        function(data) {
+                            return process(data);
+                        });
+                },
+
+                highlight: true,
+                minLength: 1,
+                name: 'cities',
+                autoSelect: true,
+                hint: true,
+                displayText: function(item) {
+                    return item.city;
+                },
+            });
+    </script>
+
+    <script>
+        var bootstrapButton = $.fn.button.noConflict()
+        $.fn.bootstrapBtn = bootstrapButton 
+        $('#exampleModal').modal('show')
+    </script>
+
+<script>
+        var bootstrapButton = $.fn.button.noConflict();
+        var jQuery3_6_3 = $.noConflict(true);
+        var jQuery3_4_1 = $.noConflict(true);
+        
+        jQuery3_6_3(document).ready(function ($) {
+          
+            $('#exampleModal').modal('show');
+        });
+
+      
+    </script>
+
+    <!-- header -->
+    <script>
+    function toggleCaretIcon(element) {
+        var caretIcon = element.querySelector('.caret-icon');
+        caretIcon.classList.toggle('fa-caret-down');
+        caretIcon.classList.toggle('fa-caret-up');
+    }
+</script>
+       
+
+<script>
+    $(document).ready(function () {
+        $('.arrowChange').click(function () {
+            $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
+        });
+    });
+</script>   
+
+
+
+    <!-- <script>
+        function filterListings() {
+            var input, filter, cards, card, i, brandName;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            cards = document.getElementsByClassName('card');
+
+            for (i = 0; i < cards.length; i++) {
+                card = cards[i];
+                brandName = card.getElementsByClassName('brand-name')[0];
+
+                if (brandName.innerText.toUpperCase().indexOf(filter) > -1) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+        }
+    </script> -->
+    <!-- price range -->
+    <!-- <script> 
+        const slider = document.getElementById('custom-slidera');
+        const selectedValue = document.getElementById('selected-valuea');
+
+        slider.addEventListener('input', updateValue);
+
+        function updateValue() {
+            selectedValue.textContent = slider.value;
+        }
+    </script> -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    
+        var priceRangeInput = document.getElementById('custom-slidera');
+         
+        var selectedValueElement = document.getElementById('selected-valuea');
+
+        priceRangeInput.addEventListener('input', function () {
+            var selectedPrice = priceRangeInput.value;
+
+            selectedValueElement.textContent = selectedPrice;
+
+            // filterProducts(selectedPrice);
+        });
+
+       
+        // function filterProducts(selectedPrice) {
+    
+        //     var productPrices = document.querySelectorAll('.product-price');
+
+    
+        //     productPrices.forEach(function (productPrice) {
+              
+        //         var productPriceValue = parseFloat(productPrice.querySelector('.new-price').textContent.replace('₹', ''));
+
+           
+        //         if (selectedPrice === '0' || productPriceValue <= selectedPrice) {
+                  
+        //             productPrice.closest('.col-lg-4').style.display = 'block';
+        //         } else {
+                  
+        //             productPrice.closest('.col-lg-4').style.display = 'none';
+        //         }
+        //     });
+        // }    
+});
+
+</script>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $('.star-rating input[type="radio"]').change(function(){
+        var rating = $(this).val();
+        console.log("Data being sent to backend:", { rating }); 
+        $.ajax({
+            url: '/search/search-listing',
+            type: 'GET',
+            data: { rating },
+            success: function(data){
+                console.log(data);
+                window.location.reload();
+            },
+            error: function(xhr, status, error){
+                console.error(error);
+            }
+        });
+    });
+});
+
+
+</script>
+
+
+<script>
+    function applyFilters() {
+        var form = document.getElementById("filterForm");
+        var inputs = form.getElementsByTagName("input");
+        var filterApplied = false;
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].value) {
+                filterApplied = true;
+                break;
+            }
+        }
+        if (filterApplied || !form.search.value) {
+            form.submit();
+        }
+    }
+</script>
+
+<!-- <script>
+$(document).ready(function(){
+  $("#filters").click(function(){
+    $("#filterForm").toggle();
+  });
+});
+</script> -->
+<!-- <script>
+$(document).ready(function(){
+  $("#filters").click(function(){
+    $("#filterForm").slideToggle("slow"); 
+  });
+});
+</script> -->
+<!-- <script>
+$(document).ready(function(){
+  $("#filters").click(function(){
+    $("#filterForm").slideToggle("slow", function(){
+      if ($(this).is(":visible")) {
+        $("#filters").text("Close Filter");
+      } else {
+        $("#filters").text("Open Filter");
+      }
+    });
+  });
+});
+</script> -->
+<script>
+$(document).ready(function(){
+  $("#filters").click(function(){
+    $("#filterForm").slideToggle("slow", function(){
+      if ($(this).is(":visible")) {
+        $("#filters").html('<i class="fa-solid fa-filter"></i> Close Filter');
+      } else {
+        $("#filters").html('<i class="fa-solid fa-filter"></i> Open Filter');
+      }
+    });
+  });
+});
+</script>
+<!-- <script>
+$(document).ready(function(){
+  $("#filters").click(function(){
+
+  });
+  var urlParams = new URLSearchParams(window.location.search);
+  if(urlParams.toString().length > 0) {
+    $("#resetFilters").show();
+  }
+
+});
+</script> -->
+<script>
+$(document).ready(function(){
+  $("#filters").click(function(){
+  });
+  
+  var urlParams = new URLSearchParams(window.location.search);
+  
+  if(urlParams.toString().length > 0) {
+    $("#resetFilters").show();
+  }
+
+  $("#resetFilters").click(function(){
+    var currentUrl = window.location.href;
+    var urlWithoutParams = currentUrl.split('?')[0];
+    window.location.href = urlWithoutParams;
+  });
+});
+</script>
+    </body>
+
+</html>
